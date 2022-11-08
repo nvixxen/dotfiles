@@ -126,11 +126,11 @@ awful.layout.layouts = {
     --awful.layout.suit.corner.sw,
     --awful.layout.suit.corner.se,
     --lain.layout.cascade,
-    lain.layout.cascade.tile,
-    lain.layout.centerwork,
+    --lain.layout.cascade.tile,
+    --lain.layout.centerwork,
     --lain.layout.centerwork.horizontal,
-    lain.layout.termfair,
-    lain.layout.termfair.center
+    --lain.layout.termfair,
+    --lain.layout.termfair.center
 }
 
 lain.layout.termfair.nmaster           = 3
