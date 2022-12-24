@@ -1,0 +1,58 @@
+2022-12-17 05:46:28.769 [info] Starting worker process with pid 6628 (type: fileWatcher, window: 1).
+2022-12-17 05:46:29.078 [info] Deleted from disk dendron.dendron /home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal
+2022-12-17 05:46:29.080 [info] Deleted from disk robocorp.robotframework-lsp /home/nik/.vscode-oss/extensions/robocorp.robotframework-lsp-1.5.0-universal
+2022-12-17 05:46:30.846 [info] Getting Manifest... robbowen.synthwave-vscode
+2022-12-17 05:46:30.846 [info] Getting Manifest... robocorp.robotframework-lsp
+2022-12-17 05:46:32.212 [info] Installing extension: robbowen.synthwave-vscode
+2022-12-17 05:46:32.351 [info] Installing extension: robocorp.robotframework-lsp
+2022-12-17 05:46:33.854 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.2f8c8225-c9b7-45e1-92ba-bd2aaf4e55c8: robbowen.synthwave-vscode
+2022-12-17 05:46:33.859 [info] Renamed to /home/nik/.vscode-oss/extensions/robbowen.synthwave-vscode-0.1.15-universal
+2022-12-17 05:46:33.859 [info] Extracting completed. robbowen.synthwave-vscode
+2022-12-17 05:46:33.864 [info] Extension installed successfully: robbowen.synthwave-vscode
+2022-12-17 05:46:38.204 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.941c4492-d647-4e47-afa0-a25db72662f0: robocorp.robotframework-lsp
+2022-12-17 05:46:38.216 [info] Renamed to /home/nik/.vscode-oss/extensions/robocorp.robotframework-lsp-1.7.3-universal
+2022-12-17 05:46:38.217 [info] Extracting completed. robocorp.robotframework-lsp
+2022-12-17 05:46:38.223 [info] Extension installed successfully: robocorp.robotframework-lsp
+2022-12-17 07:20:41.295 [info] Getting Manifest... rust-lang.rust-analyzer
+2022-12-17 07:20:41.437 [info] Installing extension: rust-lang.rust-analyzer
+2022-12-17 07:20:46.397 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.a0d00941-6fce-4395-87cc-8691b7156387: rust-lang.rust-analyzer
+2022-12-17 07:20:46.406 [info] Renamed to /home/nik/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1317-linux-x64
+2022-12-17 07:20:46.407 [info] Extracting completed. rust-lang.rust-analyzer
+2022-12-17 07:20:46.409 [info] Extension installed successfully: rust-lang.rust-analyzer
+2022-12-17 07:22:34.677 [info] Getting Manifest... fabiospampinato.vscode-todo-plus
+2022-12-17 07:22:34.821 [info] Installing extension: fabiospampinato.vscode-todo-plus
+2022-12-17 07:22:39.746 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.842e3226-d04a-40dc-9d7a-23f5389868ed: fabiospampinato.vscode-todo-plus
+2022-12-17 07:22:39.758 [info] Renamed to /home/nik/.vscode-oss/extensions/fabiospampinato.vscode-todo-plus-4.19.0-universal
+2022-12-17 07:22:39.759 [info] Extracting completed. fabiospampinato.vscode-todo-plus
+2022-12-17 07:22:39.760 [info] Extension installed successfully: fabiospampinato.vscode-todo-plus
+2022-12-17 07:35:28.999 [info] Getting Manifest... silofy.hackthebox
+2022-12-17 07:35:29.154 [info] Installing extension: silofy.hackthebox
+2022-12-17 07:35:40.391 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.a526a31f-df2b-4c8f-814a-74fe9fe9d9ce: silofy.hackthebox
+2022-12-17 07:35:40.394 [info] Renamed to /home/nik/.vscode-oss/extensions/silofy.hackthebox-0.2.9-universal
+2022-12-17 07:35:40.395 [info] Extracting completed. silofy.hackthebox
+2022-12-17 07:35:40.396 [info] Extension installed successfully: silofy.hackthebox
+2022-12-17 07:36:04.606 [info] Uninstalling extension: silofy.hackthebox@0.2.9
+2022-12-17 07:36:04.742 [info] Detected extension removed from another source silofy.hackthebox
+2022-12-17 07:36:04.984 [info] Successfully uninstalled extension: silofy.hackthebox@0.2.9
+2022-12-17 07:42:10.429 [info] Getting Manifest... royaction.color-manager
+2022-12-17 07:42:10.569 [info] Installing extension: royaction.color-manager
+2022-12-17 07:42:13.819 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.5d703066-1a91-4c14-bba7-b56132e8a630: royaction.color-manager
+2022-12-17 07:42:13.821 [info] Renamed to /home/nik/.vscode-oss/extensions/royaction.color-manager-0.7.4-universal
+2022-12-17 07:42:13.821 [info] Extracting completed. royaction.color-manager
+2022-12-17 07:42:13.822 [info] Extension installed successfully: royaction.color-manager
+2022-12-17 07:44:39.546 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at a.onPromise (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5934)
+    at a.onRawMessage (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5227)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4508
+    at v.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at p.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at y.fire (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.X (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:24062)
+2022-12-17 07:50:20.001 [error] [uncaught exception in sharedProcess]: Cannot read properties of undefined (reading 'then'): TypeError: Cannot read properties of undefined (reading 'then')
+    at a.onPromise (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5934)
+    at a.onRawMessage (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:5227)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:23:4508
+    at v.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:145)
+    at p.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:2266)
+    at y.fire (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:19:1844)
+    at MessagePort.X (vscode-file://vscode-app/usr/lib/code/out/vs/code/electron-browser/sharedProcess/sharedProcessMain.js:17:24062)

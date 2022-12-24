@@ -1,0 +1,8 @@
+2022-12-09 06:44:48.577 [info] update#ctor - updates are disabled as there is no update URL
+2022-12-09 06:44:49.457 [info] Starting extension host with pid 196032 (fork() took 4 ms).
+2022-12-09 06:45:11.231 [info] Extension host with pid 196032 exited with code: 0, signal: null.
+2022-12-09 06:45:12.189 [info] Starting extension host with pid 196741 (fork() took 7 ms).
+2022-12-09 07:24:07.930 [info] Enabling inspect port on extension host with pid 196741.
+2022-12-09 12:14:55.136 [info] Extension host with pid 196741 exited with code: 0, signal: null.
+2022-12-09 12:14:56.270 [info] Starting extension host with pid 723759 (fork() took 10 ms).
+2022-12-09 16:54:08.976 [info] Enabling inspect port on extension host with pid 723759.

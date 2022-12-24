@@ -1,0 +1,72 @@
+{"level":30,"time":1669839386535,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"Logger:configure","msg":"exit","logLevel":"info"}
+{"level":30,"time":1669839386579,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"_activate","stage":"prod","isDebug":false,"logLevel":"info","logPath":"/home/nik/.config/Code - OSS/logs/20221130T121624/window1/exthost/dendron.dendron","extensionPath":"/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal","extensionUri":"/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal","workspaceFile":"/home/nik/.vscode-oss/workspaces/Awesome&Friends_DesktopConfigs.code-workspace","workspaceFolders":["/home/nik/.config/awesome"]}
+{"level":30,"time":1669839386662,"pid":13067,"hostname":"anarchy","name":"SegmentClient","msg":"No cache path for Segment specified. Failed event uploads will not be retried."}
+{"level":30,"time":1669839386663,"pid":13067,"hostname":"anarchy","name":"SegmentClient","msg":"user telemetry setting: enabled by config"}
+{"level":30,"time":1669839386663,"pid":13067,"hostname":"anarchy","name":"SegmentClient","msg":"telemetry initializing"}
+{"level":30,"time":1669839386663,"pid":13067,"hostname":"anarchy","name":"SegmentClient","msg":"using existing id"}
+{"level":30,"time":1669839386663,"pid":13067,"hostname":"anarchy","name":"SegmentClient","msg":"anonymous id","anonymousId":"rv9s2sm4ogg1vbdowsi8oap"}
+{"level":30,"time":1669839386669,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"DendronExtension","msg":"initialized"}
+{"level":30,"time":1669839386838,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"_activate","msg":"initializeWorkspace","wsType":"NATIVE","currentVersion":"0.118.0","previousGlobalVersion":"0.118.0","extensionInstallStatus":"NO_CHANGE"}
+{"level":30,"time":1669839386877,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WorkspaceActivator.init:postSetupTraits","wsRoot":"/home/nik/.config/awesome/notes"}
+{"level":30,"time":1669839386886,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"runMigrationsIfNecessary","changes":[],"workspaceInstallStatus":"NO_CHANGE"}
+{"level":30,"time":1669839386886,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WorkspaceActivator.init:postMigration","wsRoot":"/home/nik/.config/awesome/notes"}
+{"level":30,"time":1669839386893,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WorkspaceActivator.init:postWsServiceInitialize","wsRoot":"/home/nik/.config/awesome/notes"}
+{"level":30,"time":1669839386897,"pid":13067,"hostname":"anarchy","name":"execServer","state":"enter"}
+{"level":30,"time":1669839386903,"pid":13067,"hostname":"anarchy","name":"execServer","state":"post:exec.node"}
+{"level":30,"time":1669839387491,"pid":13222,"hostname":"anarchy","name":"SegmentClient","msg":"No cache path for Segment specified. Failed event uploads will not be retried."}
+{"level":30,"time":1669839387492,"pid":13222,"hostname":"anarchy","name":"SegmentClient","msg":"user telemetry setting: enabled by config"}
+{"level":30,"time":1669839387492,"pid":13222,"hostname":"anarchy","name":"SegmentClient","msg":"telemetry initializing"}
+{"level":30,"time":1669839387492,"pid":13222,"hostname":"anarchy","name":"SegmentClient","msg":"using existing id"}
+{"level":30,"time":1669839387492,"pid":13222,"hostname":"anarchy","name":"SegmentClient","msg":"anonymous id","anonymousId":"rv9s2sm4ogg1vbdowsi8oap"}
+{"level":30,"time":1669839387501,"pid":13067,"hostname":"anarchy","name":"execServer","state":"message","message":"38233"}
+{"level":30,"time":1669839387501,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"handleServerProcess","msg":"subprocess running","pid":13222}
+{"level":30,"time":1669839387501,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"startServerProcess","msg":"post-start-server","port":38233,"durationStartServer":606}
+{"level":30,"time":1669839387502,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WorkspaceActivator.init:verifyOrStartServerProcess","port":38233}
+{"level":30,"time":1669839387506,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WorkspaceActivator.init:exit"}
+{"level":30,"time":1669839387509,"pid":13067,"hostname":"anarchy","name":"SegmentClient","msg":"user telemetry setting: enabled by config"}
+{"level":30,"time":1669839387510,"pid":13067,"hostname":"anarchy","name":"SegmentClient","msg":"telemetry initializing"}
+{"level":30,"time":1669839387510,"pid":13067,"hostname":"anarchy","name":"SegmentClient","msg":"using existing id"}
+{"level":30,"time":1669839387510,"pid":13067,"hostname":"anarchy","name":"SegmentClient","msg":"anonymous id","anonymousId":"rv9s2sm4ogg1vbdowsi8oap"}
+{"level":30,"time":1669839387510,"pid":13067,"hostname":"anarchy","name":"dendron","msg":"Telemetry is disabled? false"}
+{"level":30,"time":1669839387510,"pid":13067,"hostname":"anarchy","name":"dendron","msg":"Segment Residual Cache Path is at /home/nik/.config/Code - OSS/User/globalStorage/dendron.dendron/segmentresidualcache.log"}
+{"level":30,"time":1669839387510,"pid":13067,"hostname":"anarchy","name":"SegmentClient","msg":"Attempting to flush residual segment data from file."}
+{"level":30,"time":1669839387518,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"_activate:postSetupWorkspace","platform":"linux","extensions":[{"id":"dendron.dendron","version":"0.118.0","active":true},{"id":"dendron.dendron-paste-image","version":"1.1.0","active":false},{"id":"dendron.dendron-markdown-shortcuts","version":"0.12.1","active":true},{"id":"redhat.vscode-yaml","version":"1.10.1","active":false}],"vaults":[{"fsPath":".","selfContained":true,"name":"notes"}]}
+{"level":30,"time":1669839387520,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"dendron.reloadIndex:run","msg":"pre-execute"}
+{"level":30,"time":1669839387520,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"ReloadIndex.execute","msg":"enter"}
+{"level":30,"time":1669839387528,"pid":13067,"hostname":"anarchy","name":"dendron","msg":"Segment Residual Cache flush attempted. {\"successCount\":0,\"nonRetryableErrorCount\":0,\"retryableErrorCount\":0}"}
+{"level":30,"time":1669839387553,"pid":13222,"hostname":"anarchy","name":"logger","ctx":"parsingSchemas","fname":"root","root":{"fsPath":".","selfContained":true,"name":"notes"},"imports":[]}
+{"level":30,"time":1669839387613,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"ReloadIndex.execute","durationEngineInit":90}
+{"level":30,"time":1669839387613,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"ReloadIndex.execute","msg":"exit"}
+{"level":30,"time":1669839387613,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"dendron.reloadIndex:run","msg":"post-execute"}
+{"level":30,"time":1669839387616,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"reloadWorkspace","msg":"post-ws.reloadWorkspace"}
+{"level":30,"time":1669839387616,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"reloadWorkspace","msg":"exit"}
+{"level":30,"time":1669839387616,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"postReloadWorkspace","msg":"same wsVersion"}
+{"level":30,"time":1669839387616,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"postReloadWorkspace","msg":"exit"}
+{"level":30,"time":1669839387616,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"setupViews","msg":"init:treeViewV2"}
+{"level":30,"time":1669839387617,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"setupBacklinkTreeView","msg":"init:backlinks"}
+{"level":30,"time":1669839387632,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WorkspaceActivator:activate","msg":"fin startClient","durationReloadWorkspace":101}
+{"level":30,"time":1669839387633,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"activateWorkspace","stage":"prod","msg":"enter"}
+{"level":30,"time":1669839387636,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"togglePluginActiveContext","state":"togglePluginActiveContext: true"}
+{"level":30,"time":1669839387685,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"showWelcomeOrWhatsNew","version":"0.118.0","previousExtensionVersion":"0.0.0"}
+{"level":30,"time":1669839401893,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":["/usr/share/silos-apps/apps/google-keep.qtws"]}
+{"level":30,"time":1669839401893,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"refreshBacklinksChangeActiveTextEditor"}
+{"level":30,"time":1669839401895,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WorkspaceWatcher:onFirstOpen","msg":"enter","fname":"google-keep.qtws"}
+{"level":30,"time":1669839402675,"pid":13067,"hostname":"anarchy","name":"dendron","msg":"sendSavedAnalytics"}
+{"level":30,"time":1669839402676,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"AnalyticsUtils.sendSavedAnalytics","message":"start"}
+{"level":30,"time":1669839403662,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":[]}
+{"level":30,"time":1669839403662,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"refreshBacklinksChangeActiveTextEditor"}
+{"level":30,"time":1669839405877,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":["/usr/share/silos-apps/apps/clickup.qtws"]}
+{"level":30,"time":1669839405877,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"refreshBacklinksChangeActiveTextEditor"}
+{"level":30,"time":1669839412204,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WorkspaceWatcher:onWillSaveTextDocument","url":"/usr/share/silos-apps/apps/clickup.qtws","reason":"Manual","msg":"enter"}
+{"level":30,"time":1669839412242,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":[]}
+{"level":30,"time":1669839412242,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"refreshBacklinksChangeActiveTextEditor"}
+{"level":30,"time":1669839430889,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":["/home/nik/.config/awesome/rc.lua"]}
+{"level":30,"time":1669839430889,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"refreshBacklinksChangeActiveTextEditor"}
+{"level":30,"time":1669839456791,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":[]}
+{"level":30,"time":1669839456791,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"refreshBacklinksChangeActiveTextEditor"}
+{"level":30,"time":1669839456829,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":["/home/nik/.config/awesome/notes/notes/Awesome Installed Modules.md"]}
+{"level":30,"time":1669839456829,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"refreshBacklinksChangeActiveTextEditor"}
+{"level":30,"time":1669839456831,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WorkspaceWatcher:onFirstOpen","msg":"enter","fname":"Awesome Installed Modules"}
+{"level":30,"time":1669839456954,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WindowWatcher:onDidChangeActiveTextEditor","editor":"/home/nik/.config/awesome/notes/notes/Awesome Installed Modules.md"}
+{"level":30,"time":1669839457033,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"updateDecorations","msg":"decorating...","payload":{"decorationsLength":2,"diagnosticsLength":0}}
+{"level":30,"time":1669839457205,"pid":13067,"hostname":"anarchy","name":"dendron","ctx":"WorkspaceWatcher:onFirstOpen","msg":"exit","fname":"Awesome Installed Modules"}

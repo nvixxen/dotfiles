@@ -1,0 +1,32 @@
+{"level":30,"time":1670597091734,"pid":196231,"hostname":"anarchy","name":"dendron.server","msg":"83466303689-hjgotouovohj71j7n2mjroe04en9tqnm.apps.googleusercontent.com"}
+{"level":30,"time":1670597091734,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"appModule:start","dirPath":"/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist"}
+{"level":30,"time":1670597091745,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"launch","msg":"exit","port":45867,"LOG_DST":"/home/nik/.config/Code - OSS/logs/20221209T064448/window1/exthost/dendron.dendron/dendron.server.log","root":"/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist"}
+{"level":30,"time":1670597091781,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"WorkspaceController:init","msg":"enter","uri":"/home/nik/.config/awesome/notes"}
+{"level":30,"time":1670597091790,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"FileStorageV2","wsRoot":"/home/nik/.config/awesome/notes","vaults":[{"fsPath":".","selfContained":true,"name":"notes"}],"level":"info"}
+{"level":30,"time":1670597091791,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"createRenderedCache","msg":"Creating rendered preview cache set to hold maximum of '10' items."}
+{"level":30,"time":1670597091791,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"Engine:init","msg":"enter"}
+{"level":30,"time":1670597091791,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"initSchema","msg":"enter"}
+{"level":30,"time":1670597091791,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"initSchema","msg":"enter"}
+{"level":30,"time":1670597091794,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"initSchema","schemaFiles":["root.schema.yml"]}
+{"level":30,"time":1670597091794,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"parse","msg":"enter","fpaths":["root.schema.yml"],"vault":{"fsPath":".","selfContained":true,"name":"notes"}}
+{"level":30,"time":1670597091848,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"initNotes","msg":"enter"}
+{"level":30,"time":1670597091849,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"initNotes","msg":"enter"}
+{"level":30,"time":1670597091850,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"parseFile","msg":"enter","vault":{"fsPath":".","selfContained":true,"name":"notes"}}
+{"level":30,"time":1670597091852,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"parseFile","msg":"post:parseRootNote"}
+{"level":30,"time":1670597091853,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"parseFile","msg":"post:parseDomainNotes"}
+{"level":30,"time":1670597091853,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"parseFile","msg":"post:parseAllNotes"}
+{"level":30,"time":1670597091853,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"parseFile","msg":"post:matchSchemas"}
+{"level":30,"time":1670597091853,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"initNotes","msg":"parseNotes:fin"}
+{"level":30,"time":1670597091853,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"initNotes","vault":{"fsPath":".","selfContained":true,"name":"notes"},"numEntries":2,"numCacheUpdates":0}
+{"level":30,"time":1670597091853,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"_addBacklinks:ext","duration":0}
+{"level":30,"time":1670597091853,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"initNotes","msg":"time to init notes: \"4\" ms"}
+{"level":30,"time":1670597091853,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"FileStorage:init","msg":"post:initNotes","errors":[]}
+{"level":30,"time":1670597091853,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"FileStorage:init","msg":"exit"}
+{"level":30,"time":1670597091854,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"Engine:init","msg":"updated index"}
+{"level":30,"time":1670597091854,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"Engine:init","msg":"initialize hooks"}
+{"level":30,"time":1670597091854,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"init:ext","hookErrors":[]}
+{"level":30,"time":1670597091855,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"WorkspaceController:init","msg":"finish init","duration":74,"uri":"/home/nik/.config/awesome/notes"}
+POST /api/workspace/initialize? 200 76.450 ms - 4485 - 114
+POST /api/note/findMeta? 200 1.559 ms - 1901 - 60
+{"level":30,"time":1670597091904,"pid":196231,"hostname":"anarchy","name":"dendron.server","ctx":"querySchema","msg":"exit"}
+POST /api/schema/query? 200 0.762 ms - 450 - 49

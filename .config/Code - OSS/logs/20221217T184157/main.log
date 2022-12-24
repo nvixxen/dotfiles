@@ -1,0 +1,19 @@
+2022-12-17 18:41:57.793 [info] update#ctor - updates are disabled as there is no update URL
+2022-12-17 18:41:59.121 [info] Starting extension host with pid 57508 (fork() took 6 ms).
+2022-12-17 18:50:04.683 [info] Starting extension host with pid 68672 (fork() took 5 ms).
+2022-12-17 19:14:24.241 [error] CodeWindow: renderer process gone (reason: killed, code: 15)
+2022-12-17 19:14:24.267 [info] Extension host with pid 57508 exited with code: null, signal: SIGHUP.
+2022-12-17 19:14:24.267 [info] Extension host with pid 68672 exited with code: null, signal: SIGHUP.
+2022-12-17 19:14:24.277 [error] CodeWindow: renderer process gone (reason: killed, code: 15)
+2022-12-17 19:14:24.288 [error] [uncaught exception in main]: Error: SharedProcess: renderer process gone (detail: killed, code: 15)
+2022-12-17 19:14:24.288 [error] Error: SharedProcess: renderer process gone (detail: killed, code: 15)
+    at /usr/lib/code/out/vs/code/electron-main/main.js:82:67261
+    at d.invoke (/usr/lib/code/out/vs/code/electron-main/main.js:19:145)
+    at v.deliver (/usr/lib/code/out/vs/code/electron-main/main.js:19:2032)
+    at b.fire (/usr/lib/code/out/vs/code/electron-main/main.js:19:1670)
+    at /usr/lib/code/out/vs/code/electron-main/main.js:17:20702
+    at d.invoke (/usr/lib/code/out/vs/code/electron-main/main.js:19:145)
+    at v.deliver (/usr/lib/code/out/vs/code/electron-main/main.js:19:2032)
+    at b.fire (/usr/lib/code/out/vs/code/electron-main/main.js:19:1670)
+    at EventEmitter.<anonymous> (/usr/lib/code/out/vs/code/electron-main/main.js:79:96733)
+    at EventEmitter.emit (node:events:538:35)

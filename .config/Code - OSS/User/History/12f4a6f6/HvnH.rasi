@@ -1,0 +1,12 @@
+
+configuration {
+	modi:           "drun,window";
+	combi-modi:     "window,drun,ssh";
+	font:           "JetBrainsMono Nerd Font Bandit Medium 10";
+	hide-scrollbar: true;
+    show-icons:     true;
+    icon-theme:     
+    window-command: "wmctrl -i -R {window}";
+
+}
+

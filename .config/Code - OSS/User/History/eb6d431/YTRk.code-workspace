@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../../.config/awesome"
+		}
+	],
+	"settings": {
+		"task.allowAutomaticTasks": "off"
+	}
+}

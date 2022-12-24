@@ -1,0 +1,8 @@
+[Trace 20:17:37.180] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Trace 20:17:37.180] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Trace 20:17:37.181] Server: connection.languages.diagnostics.on: file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Trace 20:17:37.187] Server: connection.languages.diagnostics.on: file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Trace 20:17:37.205] DocumentSymbolProvider: provideDocumentSymbols — file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md 1
+[Debug 20:17:37.206] LinkProvider: compute - file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Debug 20:17:37.288] TableOfContentsProvider: create - file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Debug 20:17:37.398] MdFoldingProvider: provideFoldingRanges — file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md 1

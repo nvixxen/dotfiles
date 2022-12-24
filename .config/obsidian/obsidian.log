@@ -1,0 +1,340 @@
+2022-11-09 02:46:44 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-11-09 02:46:44 Checking for update using Github
+2022-11-09 02:46:44 Success.
+2022-11-09 02:46:44 Latest version is 1.0.3
+2022-11-09 02:46:44 App is up to date.
+2022-11-09 03:28:10 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-11-09 03:28:10 Checking for update using Github
+2022-11-09 03:28:10 Success.
+2022-11-09 03:28:10 Latest version is 1.0.3
+2022-11-09 03:28:10 App is up to date.
+2022-11-09 03:28:29 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-11-09 03:28:30 Checking for update using Github
+2022-11-09 03:28:30 Success.
+2022-11-09 03:28:30 Latest version is 1.0.3
+2022-11-09 03:28:30 App is up to date.
+2022-11-09 04:28:29 Checking for update using Github
+2022-11-09 04:28:30 Success.
+2022-11-09 04:28:30 Latest version is 1.0.3
+2022-11-09 04:28:30 App is up to date.
+2022-11-09 05:28:30 Checking for update using Github
+2022-11-09 05:28:30 Success.
+2022-11-09 05:28:30 Latest version is 1.0.3
+2022-11-09 05:28:30 App is up to date.
+2022-11-09 06:28:30 Checking for update using Github
+2022-11-09 06:28:30 Success.
+2022-11-09 06:28:30 Latest version is 1.0.3
+2022-11-09 06:28:30 App is up to date.
+2022-11-09 07:28:30 Checking for update using Github
+2022-11-09 07:28:30 Success.
+2022-11-09 07:28:30 Latest version is 1.0.3
+2022-11-09 07:28:30 App is up to date.
+2022-11-09 08:28:30 Checking for update using Github
+2022-11-09 08:28:30 Success.
+2022-11-09 08:28:30 Latest version is 1.0.3
+2022-11-09 08:28:30 App is up to date.
+2022-11-09 09:28:30 Checking for update using Github
+2022-11-09 09:28:30 Success.
+2022-11-09 09:28:30 Latest version is 1.0.3
+2022-11-09 09:28:30 App is up to date.
+2022-11-09 10:28:30 Checking for update using Github
+2022-11-09 10:28:30 Success.
+2022-11-09 10:28:30 Latest version is 1.0.3
+2022-11-09 10:28:30 App is up to date.
+2022-11-09 11:28:30 Checking for update using Github
+2022-11-09 11:28:30 Success.
+2022-11-09 11:28:30 Latest version is 1.0.3
+2022-11-09 11:28:30 App is up to date.
+2022-11-09 12:28:30 Checking for update using Github
+2022-11-09 12:28:30 Success.
+2022-11-09 12:28:30 Latest version is 1.0.3
+2022-11-09 12:28:30 App is up to date.
+2022-11-09 13:28:30 Checking for update using Github
+2022-11-09 13:28:30 Success.
+2022-11-09 13:28:30 Latest version is 1.0.3
+2022-11-09 13:28:30 App is up to date.
+2022-11-09 14:28:30 Checking for update using Github
+2022-11-09 14:28:30 Success.
+2022-11-09 14:28:30 Latest version is 1.0.3
+2022-11-09 14:28:30 App is up to date.
+2022-11-09 15:28:30 Checking for update using Github
+2022-11-09 15:28:30 Success.
+2022-11-09 15:28:30 Latest version is 1.0.3
+2022-11-09 15:28:30 App is up to date.
+2022-11-09 16:28:30 Checking for update using Github
+2022-11-09 16:28:31 Success.
+2022-11-09 16:28:31 Latest version is 1.0.3
+2022-11-09 16:28:31 App is up to date.
+2022-11-09 17:28:31 Checking for update using Github
+2022-11-09 17:28:31 Success.
+2022-11-09 17:28:31 Latest version is 1.0.3
+2022-11-09 17:28:31 App is up to date.
+2022-11-09 18:28:31 Checking for update using Github
+2022-11-09 18:28:31 Success.
+2022-11-09 18:28:31 Latest version is 1.0.3
+2022-11-09 18:28:31 App is up to date.
+2022-11-09 19:28:31 Checking for update using Github
+2022-11-09 19:28:31 Success.
+2022-11-09 19:28:31 Latest version is 1.0.3
+2022-11-09 19:28:31 App is up to date.
+2022-11-09 20:28:31 Checking for update using Github
+2022-11-09 20:28:31 Success.
+2022-11-09 20:28:31 Latest version is 1.0.3
+2022-11-09 20:28:31 App is up to date.
+2022-11-09 21:28:31 Checking for update using Github
+2022-11-09 21:28:31 Success.
+2022-11-09 21:28:31 Latest version is 1.0.3
+2022-11-09 21:28:31 App is up to date.
+2022-11-10 00:33:29 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-11-10 00:33:42 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-11-10 00:33:43 Checking for update using Github
+2022-11-10 00:33:43 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2022-11-10 00:33:43 Checking for update using obsidian.md
+2022-11-10 00:33:43 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2022-11-10 00:33:43 Checking for update using Github
+2022-11-10 09:10:07 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-11-10 09:10:07 Checking for update using Github
+2022-11-10 09:10:07 Success.
+2022-11-10 09:10:07 Latest version is 1.0.3
+2022-11-10 09:10:07 App is up to date.
+2022-11-10 10:10:07 Checking for update using Github
+2022-11-10 10:10:07 Success.
+2022-11-10 10:10:07 Latest version is 1.0.3
+2022-11-10 10:10:07 App is up to date.
+2022-11-10 11:10:07 Checking for update using Github
+2022-11-10 11:10:07 Success.
+2022-11-10 11:10:07 Latest version is 1.0.3
+2022-11-10 11:10:07 App is up to date.
+2022-11-10 12:10:07 Checking for update using Github
+2022-11-10 12:10:07 Success.
+2022-11-10 12:10:07 Latest version is 1.0.3
+2022-11-10 12:10:07 App is up to date.
+2022-11-10 13:10:07 Checking for update using Github
+2022-11-10 13:10:07 Success.
+2022-11-10 13:10:07 Latest version is 1.0.3
+2022-11-10 13:10:07 App is up to date.
+2022-11-10 14:10:07 Checking for update using Github
+2022-11-10 14:10:07 Success.
+2022-11-10 14:10:07 Latest version is 1.0.3
+2022-11-10 14:10:07 App is up to date.
+2022-11-10 14:30:38 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-11-10 14:30:38 Checking for update using Github
+2022-11-11 12:15:15 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-11-11 12:15:15 Checking for update using Github
+2022-11-11 12:15:15 Success.
+2022-11-11 12:15:15 Latest version is 1.0.3
+2022-11-11 12:15:15 App is up to date.
+2022-11-25 18:54:19 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-11-25 18:54:20 Checking for update using Github
+2022-11-25 18:54:20 Success.
+2022-11-25 18:54:20 Latest version is 1.0.3
+2022-11-25 18:54:20 App is up to date.
+2022-11-25 19:54:20 Checking for update using Github
+2022-11-25 19:54:20 Success.
+2022-11-25 19:54:20 Latest version is 1.0.3
+2022-11-25 19:54:20 App is up to date.
+2022-11-25 20:54:20 Checking for update using Github
+2022-11-25 20:54:20 Success.
+2022-11-25 20:54:20 Latest version is 1.0.3
+2022-11-25 20:54:20 App is up to date.
+2022-11-25 21:54:20 Checking for update using Github
+2022-11-25 21:54:20 Success.
+2022-11-25 21:54:20 Latest version is 1.0.3
+2022-11-25 21:54:20 App is up to date.
+2022-11-25 22:54:20 Checking for update using Github
+2022-11-25 22:54:20 Success.
+2022-11-25 22:54:20 Latest version is 1.0.3
+2022-11-25 22:54:20 App is up to date.
+2022-11-25 23:54:20 Checking for update using Github
+2022-11-25 23:54:20 Success.
+2022-11-25 23:54:20 Latest version is 1.0.3
+2022-11-25 23:54:20 App is up to date.
+2022-11-26 00:54:20 Checking for update using Github
+2022-11-26 00:54:20 Success.
+2022-11-26 00:54:20 Latest version is 1.0.3
+2022-11-26 00:54:20 App is up to date.
+2022-11-26 01:54:20 Checking for update using Github
+2022-11-26 01:54:20 Success.
+2022-11-26 01:54:20 Latest version is 1.0.3
+2022-11-26 01:54:20 App is up to date.
+2022-11-26 02:54:20 Checking for update using Github
+2022-11-26 02:54:20 Success.
+2022-11-26 02:54:20 Latest version is 1.0.3
+2022-11-26 02:54:20 App is up to date.
+2022-11-26 03:54:20 Checking for update using Github
+2022-11-26 03:54:21 Success.
+2022-11-26 03:54:21 Latest version is 1.0.3
+2022-11-26 03:54:21 App is up to date.
+2022-11-26 04:54:20 Checking for update using Github
+2022-11-26 04:54:21 Success.
+2022-11-26 04:54:21 Latest version is 1.0.3
+2022-11-26 04:54:21 App is up to date.
+2022-11-26 05:54:21 Checking for update using Github
+2022-11-26 05:54:21 Success.
+2022-11-26 05:54:21 Latest version is 1.0.3
+2022-11-26 05:54:21 App is up to date.
+2022-11-26 06:54:21 Checking for update using Github
+2022-11-26 06:54:21 Success.
+2022-11-26 06:54:21 Latest version is 1.0.3
+2022-11-26 06:54:21 App is up to date.
+2022-11-26 07:54:21 Checking for update using Github
+2022-11-26 07:54:21 Success.
+2022-11-26 07:54:21 Latest version is 1.0.3
+2022-11-26 07:54:21 App is up to date.
+2022-11-26 08:54:21 Checking for update using Github
+2022-11-26 08:54:21 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2022-11-26 08:54:21 Checking for update using obsidian.md
+2022-11-26 08:54:21 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2022-11-26 09:54:21 Checking for update using Github
+2022-11-26 09:54:21 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2022-11-26 09:54:21 Checking for update using obsidian.md
+2022-11-26 09:54:21 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2022-11-26 10:54:21 Checking for update using Github
+2022-11-26 10:54:21 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2022-11-26 10:54:21 Checking for update using obsidian.md
+2022-11-26 10:54:21 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2022-11-26 11:54:21 Checking for update using Github
+2022-11-26 11:54:21 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2022-11-26 11:54:21 Checking for update using obsidian.md
+2022-11-26 11:54:21 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2022-11-26 12:54:21 Checking for update using Github
+2022-11-26 12:54:21 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2022-11-26 12:54:21 Checking for update using obsidian.md
+2022-11-26 12:54:21 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2022-11-26 13:54:21 Checking for update using Github
+2022-11-26 13:54:21 Success.
+2022-11-26 13:54:21 Latest version is 1.0.3
+2022-11-26 13:54:21 App is up to date.
+2022-11-26 23:24:50 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-11-26 23:24:50 Checking for update using Github
+2022-11-26 23:24:51 Success.
+2022-11-26 23:24:51 Latest version is 1.0.3
+2022-11-26 23:24:51 App is up to date.
+2022-11-27 00:24:50 Checking for update using Github
+2022-11-27 00:24:51 Success.
+2022-11-27 00:24:51 Latest version is 1.0.3
+2022-11-27 00:24:51 App is up to date.
+2022-11-27 01:24:50 Checking for update using Github
+2022-11-27 01:24:51 Success.
+2022-11-27 01:24:51 Latest version is 1.0.3
+2022-11-27 01:24:51 App is up to date.
+2022-11-27 02:24:50 Checking for update using Github
+2022-11-27 02:24:51 Success.
+2022-11-27 02:24:51 Latest version is 1.0.3
+2022-11-27 02:24:51 App is up to date.
+2022-11-27 03:24:50 Checking for update using Github
+2022-11-27 03:24:50 Success.
+2022-11-27 03:24:50 Latest version is 1.0.3
+2022-11-27 03:24:50 App is up to date.
+2022-11-27 04:24:50 Checking for update using Github
+2022-11-27 04:24:51 Success.
+2022-11-27 04:24:51 Latest version is 1.0.3
+2022-11-27 04:24:51 App is up to date.
+2022-11-27 05:24:51 Checking for update using Github
+2022-11-27 05:24:51 Success.
+2022-11-27 05:24:51 Latest version is 1.0.3
+2022-11-27 05:24:51 App is up to date.
+2022-11-27 06:24:51 Checking for update using Github
+2022-11-27 06:24:51 Success.
+2022-11-27 06:24:51 Latest version is 1.0.3
+2022-11-27 06:24:51 App is up to date.
+2022-11-27 07:24:51 Checking for update using Github
+2022-11-27 07:24:51 Success.
+2022-11-27 07:24:51 Latest version is 1.0.3
+2022-11-27 07:24:51 App is up to date.
+2022-11-27 08:24:51 Checking for update using Github
+2022-11-27 08:24:51 Success.
+2022-11-27 08:24:51 Latest version is 1.0.3
+2022-11-27 08:24:51 App is up to date.
+2022-12-05 19:35:03 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-12-05 19:35:03 Checking for update using Github
+2022-12-05 19:35:03 Success.
+2022-12-05 19:35:03 Latest version is 1.0.3
+2022-12-05 19:35:03 App is up to date.
+2022-12-05 20:35:03 Checking for update using Github
+2022-12-05 20:35:03 Success.
+2022-12-05 20:35:03 Latest version is 1.0.3
+2022-12-05 20:35:03 App is up to date.
+2022-12-05 21:35:03 Checking for update using Github
+2022-12-05 21:35:03 Success.
+2022-12-05 21:35:03 Latest version is 1.0.3
+2022-12-05 21:35:03 App is up to date.
+2022-12-05 22:35:03 Checking for update using Github
+2022-12-05 22:35:03 Success.
+2022-12-05 22:35:03 Latest version is 1.0.3
+2022-12-05 22:35:03 App is up to date.
+2022-12-05 23:35:03 Checking for update using Github
+2022-12-05 23:35:03 Success.
+2022-12-05 23:35:03 Latest version is 1.0.3
+2022-12-05 23:35:03 App is up to date.
+2022-12-06 00:35:03 Checking for update using Github
+2022-12-06 00:35:03 Success.
+2022-12-06 00:35:03 Latest version is 1.0.3
+2022-12-06 00:35:03 App is up to date.
+2022-12-06 01:35:03 Checking for update using Github
+2022-12-06 01:35:03 Success.
+2022-12-06 01:35:03 Latest version is 1.0.3
+2022-12-06 01:35:03 App is up to date.
+2022-12-06 10:34:41 Checking for update using Github
+2022-12-06 10:34:41 Success.
+2022-12-06 10:34:41 Latest version is 1.0.3
+2022-12-06 10:34:41 App is up to date.
+2022-12-06 11:34:41 Checking for update using Github
+2022-12-06 11:34:41 Success.
+2022-12-06 11:34:41 Latest version is 1.0.3
+2022-12-06 11:34:41 App is up to date.
+2022-12-06 12:34:41 Checking for update using Github
+2022-12-06 12:34:41 Success.
+2022-12-06 12:34:41 Latest version is 1.0.3
+2022-12-06 12:34:41 App is up to date.
+2022-12-06 13:34:41 Checking for update using Github
+2022-12-06 13:34:41 Success.
+2022-12-06 13:34:41 Latest version is 1.0.3
+2022-12-06 13:34:41 App is up to date.
+2022-12-06 14:34:41 Checking for update using Github
+2022-12-06 14:34:41 Success.
+2022-12-06 14:34:41 Latest version is 1.0.3
+2022-12-06 14:34:41 App is up to date.
+2022-12-06 15:34:41 Checking for update using Github
+2022-12-06 15:34:41 Success.
+2022-12-06 15:34:41 Latest version is 1.0.3
+2022-12-06 15:34:41 App is up to date.
+2022-12-06 16:34:41 Checking for update using Github
+2022-12-06 16:34:41 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2022-12-06 16:34:41 Checking for update using obsidian.md
+2022-12-06 16:34:41 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2022-12-06 17:34:41 Checking for update using Github
+2022-12-06 17:34:41 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2022-12-06 17:34:41 Checking for update using obsidian.md
+2022-12-06 17:34:41 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2022-12-06 18:34:41 Checking for update using Github
+2022-12-06 18:34:41 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2022-12-06 18:34:41 Checking for update using obsidian.md
+2022-12-06 18:34:41 Failed to check for update using obsidian.md (net::ERR_NAME_NOT_RESOLVED)
+2022-12-09 18:51:06 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-12-09 18:51:07 Checking for update using Github
+2022-12-09 18:51:07 Success.
+2022-12-09 18:51:07 Latest version is 1.0.3
+2022-12-09 18:51:07 App is up to date.
+2022-12-17 20:50:13 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-12-17 20:50:13 Checking for update using Github
+2022-12-17 20:50:14 Success.
+2022-12-17 20:50:14 Latest version is 1.0.3
+2022-12-17 20:50:14 App is up to date.
+2022-12-17 21:50:13 Checking for update using Github
+2022-12-17 21:50:13 Success.
+2022-12-17 21:50:13 Latest version is 1.0.3
+2022-12-17 21:50:13 App is up to date.
+2022-12-17 22:50:13 Checking for update using Github
+2022-12-17 22:50:14 Success.
+2022-12-17 22:50:14 Latest version is 1.0.3
+2022-12-17 22:50:14 App is up to date.
+2022-12-17 23:47:58 Loading main app package /usr/lib/obsidian/obsidian.asar
+2022-12-17 23:47:58 Checking for update using Github
+2022-12-17 23:47:58 Success.
+2022-12-17 23:47:58 Latest version is 1.0.3
+2022-12-17 23:47:58 App is up to date.
+2022-12-18 00:47:58 Checking for update using Github
+2022-12-18 00:47:58 Success.
+2022-12-18 00:47:58 Latest version is 1.0.3
+2022-12-18 00:47:58 App is up to date.

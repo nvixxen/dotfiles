@@ -1,0 +1,5 @@
+2022-12-17 08:06:05.465 [info] Starting worker process with pid 255474 (type: fileWatcher, window: 1).
+2022-12-17 08:06:05.518 [info] Marked extension as uninstalled fabiospampinato.vscode-todo-plus-4.19.0-universal
+2022-12-17 08:06:05.519 [info] Marked extension as uninstalled royaction.color-manager-0.7.4-universal
+2022-12-17 08:06:05.519 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1317-linux-x64
+2022-12-17 08:06:05.681 [info] Deleted from disk silofy.hackthebox /home/nik/.vscode-oss/extensions/silofy.hackthebox-0.2.9-universal

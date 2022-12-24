@@ -1,0 +1,4 @@
+2022-12-17 15:14:57.094 [info] Starting worker process with pid 1056435 (type: fileWatcher, window: 1).
+2022-12-17 15:14:57.733 [info] Deleted from disk royaction.color-manager /home/nik/.vscode-oss/extensions/royaction.color-manager-0.7.4-universal
+2022-12-17 15:14:57.741 [info] Deleted from disk rust-lang.rust-analyzer /home/nik/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1317-linux-x64
+2022-12-17 15:14:57.743 [info] Deleted from disk fabiospampinato.vscode-todo-plus /home/nik/.vscode-oss/extensions/fabiospampinato.vscode-todo-plus-4.19.0-universal

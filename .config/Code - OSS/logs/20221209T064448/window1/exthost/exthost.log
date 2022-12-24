@@ -1,0 +1,476 @@
+2022-12-09 06:44:49.916 [info] Extension host with pid 196032 started
+2022-12-09 06:44:49.916 [info] Skipping acquiring lock for /home/nik/.config/Code - OSS/User/workspaceStorage/7b933d9bb2e0e9b2553c8ae9093ed301.
+2022-12-09 06:44:49.988 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2022-12-09 06:44:49.988 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2022-12-09 06:44:49.988 [info] ExtensionService#_doActivateExtension Koihik.vscode-lua-format, startup: false, activationEvent: 'onLanguage:lua'
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension Nightrains.robloxlsp, startup: false, activationEvent: 'onLanguage:lua'
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension sumneko.lua, startup: false, activationEvent: 'onLanguage:lua'
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: true, activationEvent: '*'
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension dendron.dendron, startup: true, activationEvent: '*'
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension dendron.dendron-markdown-shortcuts, startup: true, activationEvent: '*'
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension dendron.dendron-snippet-maker, startup: true, activationEvent: '*'
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+2022-12-09 06:44:49.989 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2022-12-09 06:44:49.990 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2022-12-09 06:44:50.807 [error] Activating extension sumneko.lua failed due to an error:
+2022-12-09 06:44:50.807 [error] Error: command 'lua.config' already exists
+	at s.registerCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:109710)
+	at Object.registerCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:32839)
+	at registerCustomCommands (/home/nik/.vscode-oss/extensions/sumneko.lua-2.5.3-universal/client/out/languageserver.js:22:50)
+	at Object.activate (/home/nik/.vscode-oss/extensions/sumneko.lua-2.5.3-universal/client/out/languageserver.js:261:5)
+	at activate (/home/nik/.vscode-oss/extensions/sumneko.lua-2.5.3-universal/client/out/extension.js:7:20)
+	at On._callActivateOptional (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:17678)
+	at On._callActivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:17338)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:15133
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async w._activate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:8304)
+	at async w._waitForDepsThenActivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:8246)
+	at async w._initialize (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:7610)
+2022-12-09 06:44:50.836 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-09 06:44:50.836 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-09 06:44:50.836 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2022-12-09 06:44:50.889 [info] Eager extensions activated
+2022-12-09 06:44:50.918 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:44:50.918 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:44:50.918 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:44:50.918 [info] ExtensionService#_doActivateExtension activecove.marquee, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:44:50.918 [info] ExtensionService#_doActivateExtension MatthewNespor.vscode-color-identifiers-mode, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:44:50.918 [info] ExtensionService#_doActivateExtension Sudhan.neondark-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:44:50.918 [info] ExtensionService#_doActivateExtension virgilsisoe.hammerspoon, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:44:50.949 [error] Activating extension virgilsisoe.hammerspoon failed due to an error:
+2022-12-09 06:44:50.949 [error] Error: ENOENT: no such file or directory, open '/Applications/Hammerspoon.app/Contents/Resources/docs.json'
+	at Object.openSync (node:fs:585:3)
+	at Object.func [as openSync] (node:electron/js2c/asar_bundle:5:1812)
+	at readFileSync (node:fs:453:35)
+	at e.readFileSync (node:electron/js2c/asar_bundle:5:9160)
+	at Object.<anonymous> (/home/nik/.vscode-oss/extensions/virgilsisoe.hammerspoon-0.4.0-universal/out/generate_hs_docs.js:7:48)
+	at u._compile (/usr/lib/code/out/vs/loader.js:4:1313)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+	at Module.load (node:internal/modules/cjs/loader:988:32)
+	at Module._load (node:internal/modules/cjs/loader:829:12)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at a._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14563)
+	at v._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64900)
+	at w._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64268)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at p (/usr/lib/code/out/vs/loader.js:4:699)
+	at Object.<anonymous> (/home/nik/.vscode-oss/extensions/virgilsisoe.hammerspoon-0.4.0-universal/out/extension.js:13:28)
+	at u._compile (/usr/lib/code/out/vs/loader.js:4:1313)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+	at Module.load (node:internal/modules/cjs/loader:988:32)
+	at Module._load (node:internal/modules/cjs/loader:829:12)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at a._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14563)
+	at v._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64900)
+	at w._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64268)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.r [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:101)
+	at h._loadCommonJSModule (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:66459)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Promise.all (index 0)
+2022-12-09 06:44:51.047 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2022-12-09 06:45:11.186 [info] Extension host terminating: received terminate message from renderer
+2022-12-09 06:45:11.200 [info] Extension host with pid 196032 exiting with code 0
+2022-12-09 06:45:12.555 [info] Extension host with pid 196741 started
+2022-12-09 06:45:12.555 [info] Skipping acquiring lock for /home/nik/.config/Code - OSS/User/workspaceStorage/f093968c6a09930fe0de5f3ad2e46506.
+2022-12-09 06:45:12.629 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-09 06:45:12.629 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: true, activationEvent: '*'
+2022-12-09 06:45:12.629 [info] ExtensionService#_doActivateExtension dendron.dendron, startup: true, activationEvent: '*'
+2022-12-09 06:45:12.629 [info] ExtensionService#_doActivateExtension dendron.dendron-markdown-shortcuts, startup: true, activationEvent: '*'
+2022-12-09 06:45:12.629 [info] ExtensionService#_doActivateExtension dendron.dendron-snippet-maker, startup: true, activationEvent: '*'
+2022-12-09 06:45:12.630 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2022-12-09 06:45:12.630 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2022-12-09 06:45:12.630 [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+2022-12-09 06:45:12.630 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2022-12-09 06:45:12.630 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2022-12-09 06:45:13.259 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-09 06:45:13.259 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-09 06:45:13.259 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2022-12-09 06:45:13.321 [info] Eager extensions activated
+2022-12-09 06:45:13.341 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:45:13.341 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:45:13.341 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:45:13.341 [info] ExtensionService#_doActivateExtension activecove.marquee, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:45:13.341 [info] ExtensionService#_doActivateExtension MatthewNespor.vscode-color-identifiers-mode, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:45:13.341 [info] ExtensionService#_doActivateExtension Sudhan.neondark-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:45:13.341 [info] ExtensionService#_doActivateExtension virgilsisoe.hammerspoon, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 06:45:13.365 [error] Activating extension virgilsisoe.hammerspoon failed due to an error:
+2022-12-09 06:45:13.365 [error] Error: ENOENT: no such file or directory, open '/Applications/Hammerspoon.app/Contents/Resources/docs.json'
+	at Object.openSync (node:fs:585:3)
+	at Object.func [as openSync] (node:electron/js2c/asar_bundle:5:1812)
+	at readFileSync (node:fs:453:35)
+	at e.readFileSync (node:electron/js2c/asar_bundle:5:9160)
+	at Object.<anonymous> (/home/nik/.vscode-oss/extensions/virgilsisoe.hammerspoon-0.4.0-universal/out/generate_hs_docs.js:7:48)
+	at u._compile (/usr/lib/code/out/vs/loader.js:4:1313)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+	at Module.load (node:internal/modules/cjs/loader:988:32)
+	at Module._load (node:internal/modules/cjs/loader:829:12)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at a._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14563)
+	at v._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64900)
+	at w._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64268)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at p (/usr/lib/code/out/vs/loader.js:4:699)
+	at Object.<anonymous> (/home/nik/.vscode-oss/extensions/virgilsisoe.hammerspoon-0.4.0-universal/out/extension.js:13:28)
+	at u._compile (/usr/lib/code/out/vs/loader.js:4:1313)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+	at Module.load (node:internal/modules/cjs/loader:988:32)
+	at Module._load (node:internal/modules/cjs/loader:829:12)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at a._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14563)
+	at v._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64900)
+	at w._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64268)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.r [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:101)
+	at h._loadCommonJSModule (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:66459)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Promise.all (index 0)
+2022-12-09 06:57:37.916 [error] DendronError: no native workspace
+	at Ir.getWorkspaceImplOrThrow (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188684)
+	at Ir.getDWorkspace (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188587)
+	at fn.onDidSave (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3092831)
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at I.$acceptModelSaved (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12328)
+	at l._doInvokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13680)
+	at l._invokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13362)
+	at l._receiveRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:12132)
+	at l._receiveOneMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:10834)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:8941
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:17104
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at o._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:21327)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:18770
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at g.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:13346)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:12476
+	at Socket.i (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:24594)
+	at Socket.emit (node:events:526:28)
+	at Socket.emit (node:domain:475:12)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2022-12-09 06:57:47.588 [error] DendronError: no native workspace
+	at Ir.getWorkspaceImplOrThrow (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188684)
+	at Ir.getDWorkspace (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188587)
+	at fn.onDidSave (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3092831)
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at I.$acceptModelSaved (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12328)
+	at l._doInvokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13680)
+	at l._invokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13362)
+	at l._receiveRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:12132)
+	at l._receiveOneMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:10834)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:8941
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:17104
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at o._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:21327)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:18770
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at g.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:13346)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:12476
+	at Socket.i (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:24594)
+	at Socket.emit (node:events:526:28)
+	at Socket.emit (node:domain:475:12)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2022-12-09 07:13:01.690 [error] DendronError: no native workspace
+	at Ir.getWorkspaceImplOrThrow (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188684)
+	at Ir.getDWorkspace (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188587)
+	at fn.onDidSave (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3092831)
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at I.$acceptModelSaved (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12328)
+	at l._doInvokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13680)
+	at l._invokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13362)
+	at l._receiveRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:12132)
+	at l._receiveOneMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:10834)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:8941
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:17104
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at o._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:21327)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:18770
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at g.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:13346)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:12476
+	at Socket.i (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:24594)
+	at Socket.emit (node:events:526:28)
+	at Socket.emit (node:domain:475:12)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2022-12-09 07:13:18.596 [error] DendronError: no native workspace
+	at Ir.getWorkspaceImplOrThrow (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188684)
+	at Ir.getDWorkspace (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188587)
+	at fn.onDidSave (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3092831)
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at I.$acceptModelSaved (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12328)
+	at l._doInvokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13680)
+	at l._invokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13362)
+	at l._receiveRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:12132)
+	at l._receiveOneMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:10834)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:8941
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:17104
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at o._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:21327)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:18770
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at g.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:13346)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:12476
+	at Socket.i (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:24594)
+	at Socket.emit (node:events:526:28)
+	at Socket.emit (node:domain:475:12)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2022-12-09 07:13:38.850 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-09 07:13:38.851 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-09 07:13:38.851 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-09 07:13:39.913 [error] DendronError: no native workspace
+	at Ir.getWorkspaceImplOrThrow (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188684)
+	at Ir.getDWorkspace (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188587)
+	at fn.onDidSave (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3092831)
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at I.$acceptModelSaved (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12328)
+	at l._doInvokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13680)
+	at l._invokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13362)
+	at l._receiveRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:12132)
+	at l._receiveOneMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:10834)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:8941
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:17104
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at o._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:21327)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:18770
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at g.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:13346)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:12476
+	at Socket.i (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:24594)
+	at Socket.emit (node:events:526:28)
+	at Socket.emit (node:domain:475:12)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2022-12-09 12:14:31.772 [error] DendronError: no native workspace
+	at Ir.getWorkspaceImplOrThrow (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188684)
+	at Ir.getDWorkspace (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188587)
+	at fn.onDidSave (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3092831)
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at I.$acceptModelSaved (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12328)
+	at l._doInvokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13680)
+	at l._invokeHandler (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:13362)
+	at l._receiveRequest (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:12132)
+	at l._receiveOneMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:10834)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:102:8941
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:17104
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at o._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:21327)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:18770
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at g.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:13346)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:12476
+	at Socket.i (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:24594)
+	at Socket.emit (node:events:526:28)
+	at Socket.emit (node:domain:475:12)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2022-12-09 12:14:55.110 [info] Extension host terminating: received terminate message from renderer
+2022-12-09 12:14:55.117 [error] An error occurred when deactivating the extension 'dendron.dendron':
+2022-12-09 12:14:55.117 [error] DendronError: no native workspace
+	at Ir.getWorkspaceImplOrThrow (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3188684)
+	at kr (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3185312)
+	at Object.Fo (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3442510)
+	at Module.v (/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal/dist/extension.js:8:3471346)
+	at h._deactivate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:13260)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:10637
+	at Array.map (<anonymous>)
+	at h._deactivateAll (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:10624)
+	at h.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:104:11010)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:1565)
+	at b (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:19113)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:17041
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:16515)
+	at o._receiveMessage (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:21327)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:18770
+	at h.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at v.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at g.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at g.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:13346)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:12476
+	at Socket.i (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:70:24594)
+	at Socket.emit (node:events:526:28)
+	at Socket.emit (node:domain:475:12)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2022-12-09 12:14:55.126 [info] Extension host with pid 196741 exiting with code 0
+2022-12-09 12:14:56.868 [info] Extension host with pid 723759 started
+2022-12-09 12:14:56.868 [info] Skipping acquiring lock for /home/nik/.config/Code - OSS/User/workspaceStorage/f093968c6a09930fe0de5f3ad2e46506.
+2022-12-09 12:14:56.981 [info] ExtensionService#_doActivateExtension activecove.marquee, startup: false, activationEvent: 'onView:marquee'
+2022-12-09 12:14:56.981 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-09 12:14:56.981 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-09 12:14:56.981 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2022-12-09 12:14:56.981 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-09 12:14:56.982 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: true, activationEvent: '*'
+2022-12-09 12:14:56.982 [info] ExtensionService#_doActivateExtension dendron.dendron, startup: true, activationEvent: '*'
+2022-12-09 12:14:56.982 [info] ExtensionService#_doActivateExtension dendron.dendron-markdown-shortcuts, startup: true, activationEvent: '*'
+2022-12-09 12:14:56.982 [info] ExtensionService#_doActivateExtension dendron.dendron-snippet-maker, startup: true, activationEvent: '*'
+2022-12-09 12:14:56.982 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2022-12-09 12:14:56.982 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2022-12-09 12:14:56.982 [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+2022-12-09 12:14:56.983 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2022-12-09 12:14:56.983 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2022-12-09 12:14:58.292 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-09 12:14:58.293 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-09 12:14:58.293 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2022-12-09 12:14:58.427 [error] No tree item with id '1/0' found.
+2022-12-09 12:14:58.427 [error] No tree item with id '1/1' found.
+2022-12-09 12:14:58.427 [error] No tree item with id '1/2' found.
+2022-12-09 12:14:58.474 [info] Eager extensions activated
+2022-12-09 12:14:58.661 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 12:14:58.661 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 12:14:58.661 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 12:14:58.661 [info] ExtensionService#_doActivateExtension MatthewNespor.vscode-color-identifiers-mode, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 12:14:58.661 [info] ExtensionService#_doActivateExtension Sudhan.neondark-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 12:14:58.661 [info] ExtensionService#_doActivateExtension virgilsisoe.hammerspoon, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 12:14:58.696 [error] Activating extension virgilsisoe.hammerspoon failed due to an error:
+2022-12-09 12:14:58.696 [error] Error: ENOENT: no such file or directory, open '/Applications/Hammerspoon.app/Contents/Resources/docs.json'
+	at Object.openSync (node:fs:585:3)
+	at Object.func [as openSync] (node:electron/js2c/asar_bundle:5:1812)
+	at readFileSync (node:fs:453:35)
+	at e.readFileSync (node:electron/js2c/asar_bundle:5:9160)
+	at Object.<anonymous> (/home/nik/.vscode-oss/extensions/virgilsisoe.hammerspoon-0.4.0-universal/out/generate_hs_docs.js:7:48)
+	at u._compile (/usr/lib/code/out/vs/loader.js:4:1313)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+	at Module.load (node:internal/modules/cjs/loader:988:32)
+	at Module._load (node:internal/modules/cjs/loader:829:12)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at a._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14563)
+	at v._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64900)
+	at w._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64268)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at p (/usr/lib/code/out/vs/loader.js:4:699)
+	at Object.<anonymous> (/home/nik/.vscode-oss/extensions/virgilsisoe.hammerspoon-0.4.0-universal/out/extension.js:13:28)
+	at u._compile (/usr/lib/code/out/vs/loader.js:4:1313)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+	at Module.load (node:internal/modules/cjs/loader:988:32)
+	at Module._load (node:internal/modules/cjs/loader:829:12)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at a._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14563)
+	at v._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64900)
+	at w._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:64268)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.r [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:101)
+	at h._loadCommonJSModule (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:66459)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Promise.all (index 0)
+2022-12-09 12:16:47.726 [info] ExtensionService#_doActivateExtension usernamehw.theme-generator, startup: false, activationEvent: 'onCommand:generateTheme'
+2022-12-09 12:17:44.775 [error] Error: Unknown webview handle:8ba40aa1-d049-46c9-ae98-4c309adac42c
+    at $a.getWebview (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1736:77067)
+    at $a.$postMessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1736:75911)
+    at v._doInvokeHandler (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1743:12969)
+    at v._invokeHandler (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1743:12651)
+    at v._receiveRequest (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1743:11421)
+    at v._receiveOneMessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1743:10123)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1743:8230
+    at f.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:83:145)
+    at s.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:83:2266)
+    at c.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:83:1844)
+    at n.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:546:16853)
+    at h._receiveMessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:546:21665)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:546:19108
+    at f.invoke (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:83:145)
+    at s.deliver (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:83:2266)
+    at c.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:83:1844)
+    at c.acceptChunk (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:546:13684)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:546:12814
+    at Socket.y (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:546:24934)
+    at Socket.emit (node:events:526:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Readable.push (node:internal/streams/readable:228:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2022-12-09 12:19:58.162 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 12:19:58.162 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 12:22:18.385 [info] ExtensionService#_doActivateExtension kuba-p.theme-pink-candy, startup: false, activationEvent: 'onStartupFinished'
+2022-12-09 19:59:52.962 [info] ExtensionService#_doActivateExtension psudo-dev.nebula-oni-theme, startup: false, activationEvent: '*'

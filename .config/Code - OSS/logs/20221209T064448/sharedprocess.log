@@ -1,0 +1,117 @@
+2022-12-09 06:44:50.209 [info] Starting worker process with pid 196094 (type: fileWatcher, window: 1).
+2022-12-09 06:44:52.532 [info] Getting Manifest... dendron.dendron
+2022-12-09 06:44:52.533 [info] Getting Manifest... robocorp.robotframework-lsp
+2022-12-09 06:44:54.073 [info] Installing extension: dendron.dendron
+2022-12-09 06:44:54.383 [info] Installing extension: robocorp.robotframework-lsp
+2022-12-09 06:45:11.208 [info] Worker process with pid 196094 terminated normally (type: fileWatcher, window: 1).
+2022-12-09 06:45:12.490 [info] Starting worker process with pid 196778 (type: fileWatcher, window: 1).
+2022-12-09 06:45:14.105 [info] Getting Manifest... dendron.dendron
+2022-12-09 06:45:14.106 [info] Getting Manifest... robocorp.robotframework-lsp
+2022-12-09 06:45:14.358 [info] Extensions is already requested to install dendron.dendron
+2022-12-09 06:45:14.497 [info] Extensions is already requested to install robocorp.robotframework-lsp
+2022-12-09 06:45:29.357 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.1175170c-a6c5-44b4-a128-7deedeea44e7: dendron.dendron
+2022-12-09 06:45:29.366 [info] Renamed to /home/nik/.vscode-oss/extensions/dendron.dendron-0.119.0-universal
+2022-12-09 06:45:29.367 [info] Extracting completed. dendron.dendron
+2022-12-09 06:45:29.370 [info] Extension installed successfully: dendron.dendron
+2022-12-09 06:45:29.728 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.8ca47a5c-9450-4ed1-939f-30884c5c23cf: robocorp.robotframework-lsp
+2022-12-09 06:45:29.736 [info] Renamed to /home/nik/.vscode-oss/extensions/robocorp.robotframework-lsp-1.6.0-universal
+2022-12-09 06:45:29.737 [info] Extracting completed. robocorp.robotframework-lsp
+2022-12-09 06:45:29.740 [info] Extension installed successfully: robocorp.robotframework-lsp
+2022-12-09 12:14:55.149 [info] Worker process with pid 196778 terminated normally (type: fileWatcher, window: 1).
+2022-12-09 12:14:56.825 [info] Starting worker process with pid 723794 (type: fileWatcher, window: 1).
+2022-12-09 12:19:42.576 [info] Getting Manifest... equinusocio.vsc-material-theme
+2022-12-09 12:19:42.893 [info] Installing extension: equinusocio.vsc-material-theme
+2022-12-09 12:19:43.169 [info] Getting Manifest... equinusocio.vsc-community-material-theme
+2022-12-09 12:19:43.668 [info] Getting Manifest... equinusocio.vsc-material-theme-icons
+2022-12-09 12:19:44.198 [info] Installing extension: equinusocio.vsc-community-material-theme equinusocio.vsc-material-theme
+2022-12-09 12:19:44.198 [info] Installing extension: equinusocio.vsc-material-theme-icons equinusocio.vsc-material-theme
+2022-12-09 12:19:45.310 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.faac542d-c08c-4c6c-bea0-117791814b97: equinusocio.vsc-community-material-theme
+2022-12-09 12:19:45.312 [info] Renamed to /home/nik/.vscode-oss/extensions/equinusocio.vsc-community-material-theme-1.4.4-universal
+2022-12-09 12:19:45.320 [info] Extracting completed. equinusocio.vsc-community-material-theme
+2022-12-09 12:19:53.793 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.4d46991b-de07-4bea-bcf1-4b225feea8e3: equinusocio.vsc-material-theme-icons
+2022-12-09 12:19:53.803 [info] Renamed to /home/nik/.vscode-oss/extensions/equinusocio.vsc-material-theme-icons-2.5.0-universal
+2022-12-09 12:19:53.804 [info] Extracting completed. equinusocio.vsc-material-theme-icons
+2022-12-09 12:19:57.931 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.5e951289-2901-49b4-9085-7a2c5fd264e9: equinusocio.vsc-material-theme
+2022-12-09 12:19:57.933 [info] Renamed to /home/nik/.vscode-oss/extensions/equinusocio.vsc-material-theme-33.6.0-universal
+2022-12-09 12:19:57.934 [info] Extracting completed. equinusocio.vsc-material-theme
+2022-12-09 12:19:57.935 [info] Extension installed successfully: equinusocio.vsc-community-material-theme
+2022-12-09 12:19:57.935 [info] Extension installed successfully: equinusocio.vsc-material-theme-icons
+2022-12-09 12:19:57.935 [info] Extension installed successfully: equinusocio.vsc-material-theme
+2022-12-09 12:19:59.264 [info] Getting Manifest... muhammad-sammy.rider-theme
+2022-12-09 12:19:59.409 [info] Installing extension: muhammad-sammy.rider-theme
+2022-12-09 12:20:00.168 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.e2dd4bcf-da86-4e93-bcd6-a9dd91c1152b: muhammad-sammy.rider-theme
+2022-12-09 12:20:00.170 [info] Renamed to /home/nik/.vscode-oss/extensions/muhammad-sammy.rider-theme-1.1.1-universal
+2022-12-09 12:20:00.171 [info] Extracting completed. muhammad-sammy.rider-theme
+2022-12-09 12:20:00.171 [info] Extension installed successfully: muhammad-sammy.rider-theme
+2022-12-09 12:20:08.960 [info] Getting Manifest... dracula-theme.theme-dracula
+2022-12-09 12:20:09.168 [info] Installing extension: dracula-theme.theme-dracula
+2022-12-09 12:20:10.817 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.70ed3eb3-e9bf-4860-abea-eaa02934498c: dracula-theme.theme-dracula
+2022-12-09 12:20:10.818 [info] Renamed to /home/nik/.vscode-oss/extensions/dracula-theme.theme-dracula-2.24.2-universal
+2022-12-09 12:20:10.819 [info] Extracting completed. dracula-theme.theme-dracula
+2022-12-09 12:20:10.819 [info] Extension installed successfully: dracula-theme.theme-dracula
+2022-12-09 12:21:23.342 [info] Getting Manifest... jolaleye.horizon-theme-vscode
+2022-12-09 12:21:23.490 [info] Installing extension: jolaleye.horizon-theme-vscode
+2022-12-09 12:21:24.559 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.0205b3ef-190b-42e1-869a-f1500857c70c: jolaleye.horizon-theme-vscode
+2022-12-09 12:21:24.561 [info] Renamed to /home/nik/.vscode-oss/extensions/jolaleye.horizon-theme-vscode-2.0.2-universal
+2022-12-09 12:21:24.562 [info] Extracting completed. jolaleye.horizon-theme-vscode
+2022-12-09 12:21:24.563 [info] Extension installed successfully: jolaleye.horizon-theme-vscode
+2022-12-09 12:21:55.164 [info] Getting Manifest... qeenon.hot-emo-theme
+2022-12-09 12:21:55.359 [info] Installing extension: qeenon.hot-emo-theme
+2022-12-09 12:22:01.069 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.6cbd56b9-785d-47d7-b3bc-271298295d3b: qeenon.hot-emo-theme
+2022-12-09 12:22:01.071 [info] Renamed to /home/nik/.vscode-oss/extensions/qeenon.hot-emo-theme-0.0.5-universal
+2022-12-09 12:22:01.072 [info] Extracting completed. qeenon.hot-emo-theme
+2022-12-09 12:22:01.072 [info] Extension installed successfully: qeenon.hot-emo-theme
+2022-12-09 12:22:17.381 [info] Getting Manifest... kuba-p.theme-pink-candy
+2022-12-09 12:22:17.526 [info] Installing extension: kuba-p.theme-pink-candy
+2022-12-09 12:22:18.213 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.2477180c-7b50-4db4-9695-397fa81df75c: kuba-p.theme-pink-candy
+2022-12-09 12:22:18.215 [info] Renamed to /home/nik/.vscode-oss/extensions/kuba-p.theme-pink-candy-1.3.5-universal
+2022-12-09 12:22:18.216 [info] Extracting completed. kuba-p.theme-pink-candy
+2022-12-09 12:22:18.216 [info] Extension installed successfully: kuba-p.theme-pink-candy
+2022-12-09 12:22:47.444 [info] Getting Manifest... radiolevity.neofloss
+2022-12-09 12:22:47.824 [info] Installing extension: radiolevity.neofloss
+2022-12-09 12:22:48.966 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.e8318e6f-9d6d-4b7b-a074-30a20fb06c5a: radiolevity.neofloss
+2022-12-09 12:22:48.968 [info] Renamed to /home/nik/.vscode-oss/extensions/radiolevity.neofloss-1.1.6-universal
+2022-12-09 12:22:48.969 [info] Extracting completed. radiolevity.neofloss
+2022-12-09 12:22:48.969 [info] Extension installed successfully: radiolevity.neofloss
+2022-12-09 19:59:50.798 [info] Getting Manifest... psudo-dev.nebula-oni-theme
+2022-12-09 19:59:51.068 [info] Installing extension: psudo-dev.nebula-oni-theme
+2022-12-09 19:59:52.549 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.1a603a09-cdc8-43f7-92a5-6075c9fd8d1a: psudo-dev.nebula-oni-theme
+2022-12-09 19:59:52.551 [info] Renamed to /home/nik/.vscode-oss/extensions/psudo-dev.nebula-oni-theme-1.4.0-universal
+2022-12-09 19:59:52.552 [info] Extracting completed. psudo-dev.nebula-oni-theme
+2022-12-09 19:59:52.553 [info] Extension installed successfully: psudo-dev.nebula-oni-theme
+2022-12-09 20:01:11.737 [info] Getting Manifest... rustedturnip.night-blossom
+2022-12-09 20:01:11.972 [info] Installing extension: rustedturnip.night-blossom
+2022-12-09 20:01:13.372 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.323759c9-bca7-408f-93a5-fdcb44f19c88: rustedturnip.night-blossom
+2022-12-09 20:01:13.377 [info] Renamed to /home/nik/.vscode-oss/extensions/rustedturnip.night-blossom-0.1.0-universal
+2022-12-09 20:01:13.380 [info] Extracting completed. rustedturnip.night-blossom
+2022-12-09 20:01:13.382 [info] Extension installed successfully: rustedturnip.night-blossom
+2022-12-09 20:01:22.184 [info] Getting Manifest... bodak.fluorescence
+2022-12-09 20:01:22.332 [info] Installing extension: bodak.fluorescence
+2022-12-09 20:01:23.508 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.8e864bf7-0985-42c8-976a-bff2b1b142a7: bodak.fluorescence
+2022-12-09 20:01:23.510 [info] Renamed to /home/nik/.vscode-oss/extensions/bodak.fluorescence-1.0.3-universal
+2022-12-09 20:01:23.511 [info] Extracting completed. bodak.fluorescence
+2022-12-09 20:01:23.512 [info] Extension installed successfully: bodak.fluorescence
+2022-12-09 20:01:44.346 [info] Getting Manifest... theaflowers.witch-hazel
+2022-12-09 20:01:44.495 [info] Installing extension: theaflowers.witch-hazel
+2022-12-09 20:01:46.802 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.b4b8cd93-b804-4492-90df-429988e9e962: theaflowers.witch-hazel
+2022-12-09 20:01:46.804 [info] Renamed to /home/nik/.vscode-oss/extensions/theaflowers.witch-hazel-2021.10.16-universal
+2022-12-09 20:01:46.805 [info] Extracting completed. theaflowers.witch-hazel
+2022-12-09 20:01:46.805 [info] Extension installed successfully: theaflowers.witch-hazel
+2022-12-09 20:01:56.206 [info] Getting Manifest... robbowen.synthwave-vscode
+2022-12-09 20:01:56.382 [info] Installing extension: robbowen.synthwave-vscode
+2022-12-09 20:01:59.717 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.6047d8d2-fab3-4b5e-aea2-b16d5a47c115: robbowen.synthwave-vscode
+2022-12-09 20:01:59.725 [info] Renamed to /home/nik/.vscode-oss/extensions/robbowen.synthwave-vscode-0.1.14-universal
+2022-12-09 20:01:59.729 [info] Extracting completed. robbowen.synthwave-vscode
+2022-12-09 20:01:59.731 [info] Extension installed successfully: robbowen.synthwave-vscode
+2022-12-09 20:02:29.756 [info] Getting Manifest... beardedbear.beardedicons
+2022-12-09 20:02:29.954 [info] Installing extension: beardedbear.beardedicons
+2022-12-09 20:02:31.166 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.5c4e9fc5-7238-48b0-b949-b409e98cb097: beardedbear.beardedicons
+2022-12-09 20:02:31.168 [info] Renamed to /home/nik/.vscode-oss/extensions/beardedbear.beardedicons-1.2.0-universal
+2022-12-09 20:02:31.168 [info] Extracting completed. beardedbear.beardedicons
+2022-12-09 20:02:31.169 [info] Extension installed successfully: beardedbear.beardedicons
+2022-12-09 20:02:37.432 [info] Getting Manifest... mvllow.rose-pine
+2022-12-09 20:02:37.634 [info] Installing extension: mvllow.rose-pine
+2022-12-09 20:02:38.496 [info] Extracted extension to /home/nik/.vscode-oss/extensions/.9c0979fd-7f9b-428c-bfe7-ebb47b65e39a: mvllow.rose-pine
+2022-12-09 20:02:38.498 [info] Renamed to /home/nik/.vscode-oss/extensions/mvllow.rose-pine-2.5.0-universal
+2022-12-09 20:02:38.498 [info] Extracting completed. mvllow.rose-pine
+2022-12-09 20:02:38.499 [info] Extension installed successfully: mvllow.rose-pine

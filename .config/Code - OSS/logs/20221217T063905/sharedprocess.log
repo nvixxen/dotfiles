@@ -1,0 +1,5 @@
+2022-12-17 06:39:09.572 [info] Started initializing default profile extensions in extensions installation folder. file:///home/nik/.vscode-oss/extensions
+2022-12-17 06:39:09.664 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/nik/.vscode-oss/extensions
+2022-12-17 06:39:09.669 [info] Deleted from disk robbowen.synthwave-vscode /home/nik/.vscode-oss/extensions/robbowen.synthwave-vscode-0.1.14-universal
+2022-12-17 06:39:09.991 [info] Starting worker process with pid 99368 (type: fileWatcher, window: 1).
+2022-12-17 06:39:10.085 [info] Deleted from disk robocorp.robotframework-lsp /home/nik/.vscode-oss/extensions/robocorp.robotframework-lsp-1.6.0-universal

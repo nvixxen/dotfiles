@@ -1,0 +1,6 @@
+[Trace 06:58:36.067] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Trace 06:58:36.067] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Trace 06:58:36.068] Server: connection.languages.diagnostics.on: file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Debug 06:58:36.085] LinkProvider: compute - file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Trace 06:58:36.123] Server: connection.languages.diagnostics.on: file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md
+[Trace 06:58:36.380] Server: connection.languages.diagnostics.on: file:///home/nik/.config/awesome/notes/notes/Awesome%20Installed%20Modules.md

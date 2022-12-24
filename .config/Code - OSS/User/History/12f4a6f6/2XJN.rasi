@@ -1,0 +1,10 @@
+
+configuration {
+	modi:           "drun,window";
+	combi-modi:     "window,drun,ssh";
+	font:           "JetBrainsMono Nerd Font Bandit Medium 10";
+	hide-scrollbar: true;
+	/* sidebar-mode: true; */
+}
+
+@theme "/home/nik/.config/rofi/Banana_Split_Dark.rasi"

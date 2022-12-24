@@ -1,0 +1,13 @@
+2022-12-17 18:41:59.405 [info] Extension host with pid 57508 started
+2022-12-17 18:41:59.473 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2022-12-17 18:41:59.474 [info] ExtensionService#_doActivateExtension dendron.dendron, startup: true, activationEvent: '*'
+2022-12-17 18:41:59.474 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2022-12-17 18:41:59.474 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2022-12-17 18:41:59.909 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-17 18:41:59.909 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2022-12-17 18:41:59.991 [info] Eager extensions activated
+2022-12-17 18:42:00.038 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:42:00.038 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:42:00.038 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:42:00.038 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:42:00.038 [info] ExtensionService#_doActivateExtension kuba-p.theme-pink-candy, startup: false, activationEvent: 'onStartupFinished'

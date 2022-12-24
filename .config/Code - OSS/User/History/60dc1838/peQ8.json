@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "/home/nik/.config/i3"
+		},
+		{
+			"path": "/home/nik/.config/eww"
+		},
+		{
+			"path": "../../../../vile/src/yuck/disclose"
+		},
+		{
+			"path": "../../../../vile/src/scss/disclose"
+		},
+		{
+			"path": "../../../bspwm"
+		}
+	],
+	"settings": {}
+}

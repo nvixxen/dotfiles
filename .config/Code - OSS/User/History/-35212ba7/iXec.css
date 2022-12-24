@@ -1,0 +1,382 @@
+.theme--dark {
+  --color-main-background: #111111;
+  --color-main-background-translucent: #111111);
+  --color-background-dark: #111111;
+  --color-background-hover: #dd6c9d;
+  --color-primary-light: #21262c;
+  --color-border: #dd6c9d;
+  --input-form-background: #010409;
+  --btn-primary: #dd6c9d;
+  --btn-primary-hover: #ba2867;
+  --menu-background: #161b22;
+  --text-color: #e6e6e6;
+  --svg-invert: 100%;
+}
+
+.theme--light {
+  --color-border: #d8d8d8;
+  --input-form-background: #ffffff;
+  --btn-primary: #7c46ba;
+  --btn-primary-hover: #552675;
+  --menu-background: #ffffff;
+  --text-color: #21262d;
+  --svg-invert: 0%;
+}
+
+:root {
+  --color-primary-element: #ba2867;
+  --color-primary-element-light: #dd6c9d;
+  --gradient-main-background: var(--color-main-background);
+  --recommendation-height: 100px;
+}
+
+/* App navigation */
+#app-navigation,
+#app-navigation-vue {
+  border: 0 !important;
+  width: 340px !important;
+  overflow: visible !important;
+}
+
+#app-navigation ul,
+#app-navigation-vue ul {
+  width: 340px !important;
+  padding: 20px !important;
+}
+
+#app-navigation > ul > li.active,
+#app-navigation > ul > li.active > a,
+#app-navigation > ul > li:hover,
+#app-navigation > ul > li > a:hover,
+#app-navigation > ul > li,
+#app-navigation > ul > li > a,
+#app-navigation-vue > ul > li.active,
+#app-navigation-vue > ul > li.active > a,
+#app-navigation-vue > ul > li:hover,
+#app-navigation-vue > ul > li > a:hover,
+#app-navigation-vue > ul > li,
+#app-navigation-vue > ul > li > a {
+  border-radius: 8px !important;
+  width: 300px !important;
+  height: min-content !important;
+  font-size: 14px !important;
+}
+
+#app-navigation > ul > li.active::after,
+#app-navigation > ul > li a.active::after,
+#app-navigation-vue > ul > li.active::after,
+#app-navigation-vue > ul > li a.active::after {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: -9px;
+  width: 4px;
+  height: 30px;
+  content: "";
+  background: var(--color-primary-element);
+  border-radius: 6px;
+}
+
+.app-navigation--close {
+  margin-left: -340px !important;
+}
+
+.app-navigation-toggle {
+  margin-right: -45px !important;
+}
+
+/* Shift the app content to the right to make room for the navigation margin */
+#app-navigation:not(.hidden) + #app-content {
+  margin-left: 340px !important;
+}
+#app-navigation-vue:not(.close) + .app-content {
+  margin-left: 50px !important;
+}
+@media only screen and (max-width: 1024px) {
+  #app-navigation:not(.hidden) + #app-content {
+    margin-left: 0 !important;
+  }
+}
+
+/* App navigation - share list */
+#sublist-shareoverview > li {
+  padding-left: 0 !important;
+}
+
+#sublist-shareoverview > li > a,
+#sublist-shareoverview > li:hover {
+  border-radius: 6px !important;
+}
+
+/* General styling */
+
+input:not([type="range"]):not([type="button"]):not([type="submit"]),
+textarea {
+  background-color: var(--input-form-background) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: 6px !important;
+}
+
+textarea {
+  padding: 10px !important;
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+select,
+.button,
+.link-button {
+  color: var(--text-color) !important;
+  background-color: var(--input-form-background) !important;
+  border-radius: 6px !important;
+}
+
+button.primary,
+.button.primary {
+  background-color: var(--btn-primary) !important;
+  color: white !important;
+  border: none !important;
+}
+
+button.primary:hover,
+.button.primary:hover {
+  background-color: var(--btn-primary-hover) !important;
+}
+
+/* Pop ups */
+.settings,
+.menu,
+.header-menu__content,
+.unified-search__input-wrapper,
+#rightClickMenu,
+.popovermenu {
+  border-radius: 6px !important;
+  background-color: var(--menu-background) !important;
+}
+
+.header-menu__carret,
+.menu::after,
+.popovermenu::after {
+  border-bottom-color: var(--menu-background) !important;
+}
+
+/* Side menu */
+.side-menu-apps-list {
+  top: 170px;
+}
+
+/* File explorer */
+
+#app-content-files,
+#app-content-recent,
+#app-content-favorites,
+#app-content-sharingout,
+#app-content-sharingin,
+#app-content-sharinglinks,
+#app-content-deletedshares,
+#app-content-pendingshares,
+#app-content-shareoverview,
+#app-content-systemtagsfilter,
+#app-content-trashbin {
+  padding: 0 40px !important;
+}
+
+#controls {
+  height: 70px !important;
+  padding: 10px 0 !important;
+}
+
+.view-grid > tbody {
+  padding: 10px !important;
+}
+
+table th#headerName {
+  width: 9999px !important;
+}
+
+#filestable > thead > tr > th {
+  border-top: 1px solid var(--color-border) !important;
+}
+
+#filestable > thead > tr > th:first-child {
+  border-left: 1px solid var(--color-border) !important;
+  border-radius: 6px 0 0 0 !important;
+}
+
+#filestable > thead > tr > th:last-child {
+  border-right: 1px solid var(--color-border) !important;
+  border-radius: 0 6px 0 0 !important;
+}
+
+@media only screen and (max-width: 988px) and (min-width: 1025px),
+  only screen and (max-width: 688px) {
+  #headerName {
+    border-right: 1px solid var(--color-border) !important;
+    border-radius: 0 6px 0 0 !important;
+  }
+}
+
+#filestable > thead > tr {
+  background-color: var(--menu-background) !important;
+  border-bottom: 0 !important;
+}
+
+#filestable > thead {
+  top: 50px;
+  padding-top: 70px;
+}
+
+#fileList {
+  margin: 0 !important;
+  border-radius: 0 0 6px 6px !important;
+  border: 1px solid var(--color-border) !important;
+}
+
+#fileList > tr:last-child > td {
+  border-bottom: none !important;
+}
+
+/* Music player */
+.plyr__controls {
+  background-color: var(--color-main-background) !important;
+  border-radius: 6px !important;
+}
+
+/* File explorer - recomendations */
+#recommendations {
+  max-height: none !important;
+  height: fit-content !important;
+  display: flex !important;
+  align-items: flex-start !important;
+}
+
+.recommendation {
+  border-radius: 6px !important;
+  border: 1px solid var(--color-border) !important;
+  position: relative;
+  padding-right: 10px !important;
+  margin: 5px !important;
+  flex-grow: unset !important;
+  overflow: hidden;
+}
+
+#headerSelection,
+#headerName,
+#headerSize,
+#headerDate {
+  border: 0;
+}
+
+#header[role="banner"] {
+  background-color: rgb(22, 27, 34) !important;
+  color: white;
+}
+
+#body-login > div > div > header,
+#body-login {
+  background-color: var(--color-main-background) !important;
+  color: white;
+}
+
+#body-login a,
+#body-login label,
+#body-login p {
+  color: var(--text-color) !important;
+}
+
+#user,
+#password,
+.groupofone > #email {
+  margin: 5px 0 !important;
+  background-color: var(--color-main-background) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: 5px !important;
+  color: white !important;
+  width: 95% !important;
+  font-size: 15px !important;
+  box-sizing: border-box !important;
+}
+
+#user:focus,
+#password:focus,
+.groupofone > #email:focus {
+  border: 1px solid var(--color-primary-element) !important;
+}
+
+.groupofone > #email {
+  margin: 15px 0 !important;
+}
+
+form[name="login"],
+.lost-password-container {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  background-color: var(--menu-background);
+  width: 300px;
+  align-items: center;
+  padding: 10px 0 0 0 !important;
+}
+
+#submit-form,
+#reset-password-submit,
+#submit {
+  display: block !important;
+  width: 100%;
+  text-align: center !important;
+  color: white;
+  background-color: #3f202d !important;
+  background-image: none !important;
+  border-radius: 6px !important;
+  border: 0 !important;
+  font-size: 15px !important;
+  padding: 0 !important;
+  height: 35px;
+}
+
+#submit-form:hover,
+#reset-password-submit:hover,
+#submit:hover {
+  background-color: #3f202d !important;
+}
+
+.alternative-logins > a,
+#alternative-logins.alternative-logins .button.register-button {
+  display: block !important;
+  color: var(--text-color) !important;
+  text-align: center !important;
+  background-color: rgba(177, 186, 196, 0.05) !important;
+  border-radius: 6px !important;
+  border: 1px solid var(--color-border) !important;
+  font-size: 15px !important;
+  padding: 5px !important;
+  height: 35px !important;
+}
+
+.alternative-logins > a {
+  width: 100%;
+}
+
+#lost-password {
+  margin: 0;
+  color: var(--text-color) !important;
+  padding-bottom: 10px;
+}
+
+.submit-icon {
+  display: none;
+}
+
+#email-icon,
+img[alt="Toggle password visibility"] {
+  filter: invert(var(--svg-invert));
+  vertical-align: baseline;
+  top: 24px;
+  left: 16px;
+}
+
+::-webkit-resizer,
+::-webkit-scrollbar-corner {
+  background-color: rgba(0, 0, 0, 0);
+}

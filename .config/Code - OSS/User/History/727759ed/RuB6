@@ -1,0 +1,158 @@
+#           ad888888b,                                                                
+#          d8"     "88  ,dPYb,      ,dPYb,                        ,dPYb,              
+#                  a88  IP'`Yb      IP'`Yb                        IP'`Yb              
+#      gg         ,88P  I8  8I      I8  8I                        I8  8I              
+#      ""       aad8"   I8  8'      I8  8'                        I8  8bgg,           
+#      gg       ""Y8,   I8 dP       I8 dP    ,ggggg,      ,gggg,  I8 dP" "8    ,g,    
+#      88         `88b  I8dP   88gg I8dP    dP"  "Y8ggg  dP"  "Yb I8d8bggP"   ,8'8,   
+#      88          "88  I8P    8I   I8P    i8'    ,8I   i8'       I8P' "Yb,  ,8'  Yb  
+#    _,88,_Y8,     a88 ,d8b,  ,8I  ,d8b,_ ,d8,   ,d8'  ,d8,_    _,d8    `Yb,,8'_   8) 
+#    8P""Y8 "Y888888P' 8P'"Y88P"'  8P'"Y88P"Y8888P"    P""Y8888PP88P      Y8P' "YY8P8P
+
+
+
+align=center
+separator=false
+color=#f8f8f2
+separator_block_width=15
+markup=pango
+
+[battery]
+interval=2
+color=#7f1b6e
+border=#7f1b6e
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[wifi]
+command=iwgetid -r | tr '\n' ' ' && grep $(iwgetid -m | awk '{ printf "%s", $1 }') /proc/net/wireless | awk '{ printf "%i%\n", int($3 * 100 / 70) }'
+instance=wlp11s0f3u1
+interval=5
+label=<span color="#BE658A"> </span>
+border=#BE658A
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[mediaplayer]
+command=playerctl metadata --format "{{ artist }} <span color=\"#F9AF04\">-</span> {{ title }}"
+interval=2
+label=<span color="#F9AF04"> </span>
+border=#F9AF04
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[arch_update]
+command=checkupdates | wc -l
+interval=once
+label=<span color="#D5ACA1"> </span>
+border=#D5ACA1
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[home]
+command=df -h /home | awk 'FNR==2 { gsub(/[A-Za-z]/, ""); printf "%i<span color=\"#CEC354\">GiB</span>\n", $4 }'
+interval=3
+label=<span color="#CEC354"> </span>
+border=#CEC354
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[root]
+command=df -h / | awk 'FNR==2 { gsub(/[A-Za-z]/, ""); printf "%i<span color=\"#7f1b6e\">GiB</span>\n", $4 }'
+interval=3
+label=<span color="#7f1b6e"> </span>
+border=#7f1b6e
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[gpu_stats]
+command=nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader,nounits | awk '{ printf "%02i<span color=\"#ffb86c\">%</span>", $0}' && nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits | awk '{ printf " %i<span color=\"#ffb86c\">°C</span>\n", $0}'
+label=<span color="#ffb86c"><b>GPU: </b></span>
+interval=2
+border=#ffb86c
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[cpu_stats]
+command=sar -u 1 1 | awk 'FNR == 5 { printf "%04.1f<span color=\"#BE658A\">%</span>", (100 - $8) } ' && sensors | awk '{ if ($1 == "CPU" && $2 == "Temperature:") { gsub(/[+°C]/, "") ; printf " %i<span color=\"#ff5555\">°C</span>\n", $3 } }'
+interval=2
+label=<span color="#BE658A"><b>CPU: </b></span>
+border=#BE658A
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[memory]
+command=free --giga | awk 'FNR==2{ printf "%i<span color=\"#AEA9A3\">GiB</span>\n", $7 }'
+interval=2
+label=<span color="#AEA9A3"> </span>
+border=#AEA9A3
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[volume]
+command=pulseaudio-ctl full-status | awk '{ printf "%i<span color=\"#F9AF04\">%</span>\n", $1 }'
+interval=1
+label=<span color="#F9AF04"> </span>
+border=#F9AF04
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[time_pst]
+command=TZ=":US/Pacific" date '+%I : %M %Z' | awk '{ printf "%s<span color=\"#7f1b6e\">%s</span>%s<span color=\"#7f1b6e\"> %s</span>\n", $1, $2, $3, $4 }'
+interval=1
+label=<span color="#7f1b6e"> </span>
+border=#7f1b6e
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[time_cst]
+command=TZ=":US/Central" date '+%I : %M %Z' | awk '{ printf "%s<span color=\"#BE658A\">%s</span>%s<span color=\"#BE658A\"> %s</span>\n", $1, $2, $3, $4 }'
+interval=1
+label=<span color="#BE658A"> </span>
+border=#BE658A
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[time_est]
+command=TZ=":US/Eastern" date '+%I : %M %Z' | awk '{ printf "%s<span color=\"#FBC906\">%s</span>%s<span color=\"#FBC906\"> %s</span>\n", $1, $2, $3, $4 }'
+interval=1
+label=<span color="#FBC906"> </span>
+border=#FBC906
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0
+
+[date]
+command=LC_ALL="zh_CN.UTF-8" date '+%Y 年 %B %d 日 %A。' | awk '{ printf "%s<span color=\"#BE658A\">%s%s</span>%s<span color=\"#BE658A\">%s %s</span>\n", $1, $2, $3, $4, $5, $6 }'
+interval=60
+label=<span color="#BE658A"> </span>
+border=#BE658A
+border_top=1
+border_right=0
+border_bottom=0
+border_left=0

@@ -1,0 +1,14 @@
+2022-12-06 22:58:36.050 [info] Validating found git in: git
+2022-12-06 22:58:36.050 [info] Using git  from git
+2022-12-06 22:58:36.050 [info] > git rev-parse --show-toplevel [17ms]
+2022-12-06 22:58:36.050 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-12-06 22:58:36.054 [info] > git rev-parse --show-toplevel [41ms]
+2022-12-06 22:58:36.054 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-12-06 22:58:36.078 [info] > git rev-parse --show-toplevel [19ms]
+2022-12-06 22:58:36.078 [info] fatal: not a git repository: /home/nik/.config/awesome/freedesktop/../.git/modules/freedesktop
+2022-12-06 22:58:36.088 [info] > git rev-parse --show-toplevel [6ms]
+2022-12-06 22:58:36.088 [info] fatal: not a git repository: /home/nik/.config/awesome/lain/../.git/modules/lain
+2022-12-06 22:58:36.105 [info] > git rev-parse --show-toplevel [13ms]
+2022-12-06 22:58:36.105 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-12-06 22:58:36.128 [info] > git rev-parse --show-toplevel [19ms]
+2022-12-06 22:58:36.128 [info] fatal: not a git repository (or any of the parent directories): .git

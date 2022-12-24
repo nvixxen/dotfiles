@@ -1,0 +1,41 @@
+info: {"ctx":"Logger:configure","msg":"exit","logLevel":"info"}
+info: {"ctx":"_activate","stage":"prod","isDebug":false,"logLevel":"info","logPath":"/home/nik/.config/Code - OSS/logs/20221206T225833/window1/exthost/dendron.dendron","extensionPath":"/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal","extensionUri":"/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal","workspaceFile":"/home/nik/.vscode-oss/workspaces/Awesome&Friends_DesktopConfigs.code-workspace","workspaceFolders":["/home/nik/.config/awesome"]}
+info: {"ctx":"DendronExtension","msg":"initialized"}
+info: {"ctx":"_activate","msg":"initializeWorkspace","wsType":"NATIVE","currentVersion":"0.118.0","previousGlobalVersion":"0.118.0","extensionInstallStatus":"NO_CHANGE"}
+info: {"ctx":"WorkspaceActivator.init:postSetupTraits","wsRoot":"/home/nik/.config/awesome/notes"}
+info: {"ctx":"runMigrationsIfNecessary","changes":[],"workspaceInstallStatus":"NO_CHANGE"}
+info: {"ctx":"WorkspaceActivator.init:postMigration","wsRoot":"/home/nik/.config/awesome/notes"}
+info: {"ctx":"WorkspaceActivator.init:postWsServiceInitialize","wsRoot":"/home/nik/.config/awesome/notes"}
+info: {"ctx":"handleServerProcess","msg":"subprocess running","pid":5580}
+info: {"ctx":"startServerProcess","msg":"post-start-server","port":33157,"durationStartServer":577}
+info: {"ctx":"WorkspaceActivator.init:verifyOrStartServerProcess","port":33157}
+info: {"ctx":"WorkspaceActivator.init:exit"}
+info: {"msg":"Telemetry is disabled? false"}
+info: {"msg":"Segment Residual Cache Path is at /home/nik/.config/Code - OSS/User/globalStorage/dendron.dendron/segmentresidualcache.log"}
+info: {"ctx":"_activate:postSetupWorkspace","platform":"linux","extensions":[{"id":"dendron.dendron","version":"0.118.0","active":true},{"id":"dendron.dendron-paste-image","version":"1.1.0","active":false},{"id":"dendron.dendron-markdown-shortcuts","version":"0.12.1","active":true},{"id":"redhat.vscode-yaml","version":"1.10.1","active":false}],"vaults":[{"fsPath":".","selfContained":true,"name":"notes"}]}
+info: {"ctx":"dendron.reloadIndex:run","msg":"pre-execute"}
+info: {"ctx":"ReloadIndex.execute","msg":"enter"}
+info: Segment Residual Cache flush attempted. {"successCount":0,"nonRetryableErrorCount":0,"retryableErrorCount":0}
+info: {"ctx":"ReloadIndex.execute","durationEngineInit":93}
+info: {"ctx":"ReloadIndex.execute","msg":"exit"}
+info: {"ctx":"dendron.reloadIndex:run","msg":"post-execute"}
+info: {"ctx":"reloadWorkspace","msg":"post-ws.reloadWorkspace"}
+info: {"ctx":"reloadWorkspace","msg":"exit"}
+info: {"ctx":"postReloadWorkspace","msg":"same wsVersion"}
+info: {"ctx":"postReloadWorkspace","msg":"exit"}
+info: {"ctx":"setupViews","msg":"init:treeViewV2"}
+info: {"ctx":"setupBacklinkTreeView","msg":"init:backlinks"}
+info: {"ctx":"WorkspaceActivator:activate","msg":"fin startClient","durationReloadWorkspace":103}
+info: {"ctx":"activateWorkspace","stage":"prod","msg":"enter"}
+info: {"ctx":"togglePluginActiveContext","state":"togglePluginActiveContext: true"}
+info: {"ctx":"showWelcomeOrWhatsNew","version":"0.118.0","previousExtensionVersion":"0.0.0"}
+info: sendSavedAnalytics
+info: {"ctx":"AnalyticsUtils.sendSavedAnalytics","message":"start"}
+info: Segment Residual Cache flush attempted. {"successCount":0,"nonRetryableErrorCount":7,"retryableErrorCount":0}
+info: Segment Residual Cache flush attempted. {"successCount":0,"nonRetryableErrorCount":0,"retryableErrorCount":0}
+info: Segment Residual Cache flush attempted. {"successCount":0,"nonRetryableErrorCount":0,"retryableErrorCount":0}
+info: Segment Residual Cache flush attempted. {"successCount":0,"nonRetryableErrorCount":0,"retryableErrorCount":0}
+info: Segment Residual Cache flush attempted. {"successCount":0,"nonRetryableErrorCount":0,"retryableErrorCount":0}
+info: Segment Residual Cache flush attempted. {"successCount":0,"nonRetryableErrorCount":0,"retryableErrorCount":0}
+info: Segment Residual Cache flush attempted. {"successCount":0,"nonRetryableErrorCount":0,"retryableErrorCount":0}
+info: Segment Residual Cache flush attempted. {"successCount":0,"nonRetryableErrorCount":0,"retryableErrorCount":0}

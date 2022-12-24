@@ -1,0 +1,33 @@
+{
+    "folders": [
+		{
+			"path": "../../.config/i3"
+		},
+
+		{
+			"path": "../../.config/picom"
+		},
+		{
+			"path": "../../.config/neofetch"
+		},
+		{
+			"path": "../../.config/i3blocks"
+		},
+		{
+			"path": "../../.config/rofi"
+		},
+		{
+			"path": "../../.config/systemd"
+		}
+	],
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "echo",
+				"type": "shell",
+				"command": "echo Hello"
+			}
+		]
+	}
+}

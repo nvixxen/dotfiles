@@ -1,0 +1,15 @@
+2022-12-17 17:04:21.130 [info] update#ctor - updates are disabled as there is no update URL
+2022-12-17 17:04:22.304 [info] Starting extension host with pid 1280352 (fork() took 7 ms).
+2022-12-17 17:46:20.138 [info] Extension host with pid 1280352 exited with code: null, signal: SIGHUP.
+2022-12-17 17:46:20.199 [error] [uncaught exception in main]: Error: SharedProcess: renderer process gone (detail: killed, code: 15)
+2022-12-17 17:46:20.199 [error] Error: SharedProcess: renderer process gone (detail: killed, code: 15)
+    at /usr/lib/code/out/vs/code/electron-main/main.js:82:67261
+    at d.invoke (/usr/lib/code/out/vs/code/electron-main/main.js:19:145)
+    at v.deliver (/usr/lib/code/out/vs/code/electron-main/main.js:19:2032)
+    at b.fire (/usr/lib/code/out/vs/code/electron-main/main.js:19:1670)
+    at /usr/lib/code/out/vs/code/electron-main/main.js:17:20702
+    at d.invoke (/usr/lib/code/out/vs/code/electron-main/main.js:19:145)
+    at v.deliver (/usr/lib/code/out/vs/code/electron-main/main.js:19:2032)
+    at b.fire (/usr/lib/code/out/vs/code/electron-main/main.js:19:1670)
+    at EventEmitter.<anonymous> (/usr/lib/code/out/vs/code/electron-main/main.js:79:96733)
+    at EventEmitter.emit (node:events:538:35)

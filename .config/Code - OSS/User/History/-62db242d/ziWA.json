@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/nik/Pictures/Wallpapers/wallpaperflare.com_wallpaper (2).jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#121212",
+        "foreground": "#D5ACA1",
+        "cursor": "#D5ACA1"
+    },
+    "colors": {
+        "color0": "#3e0d36",
+        "color1": "#F9AF04",
+        "color2": "#FBC906",
+        "color3": "#CEC354",
+        "color4": "#BE658A",
+        "color5": "#AEA9A3",
+        "color6": "#D5ACA1",
+        "color7": "#e5e4cc",
+        "color8": "#a09f8e",
+        "color9": "#F9AF04",
+        "color10": "#FBC906",
+        "color11": "#CEC354",
+        "color12": "#BE658A",
+        "color13": "#AEA9A3",
+        "color14": "#D5ACA1",
+        "color15": "#e5e4cc"
+    }
+}

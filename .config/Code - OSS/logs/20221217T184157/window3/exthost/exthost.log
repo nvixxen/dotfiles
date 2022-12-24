@@ -1,0 +1,58 @@
+2022-12-17 18:50:05.151 [info] Extension host with pid 68672 started
+2022-12-17 18:50:05.215 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-17 18:50:05.215 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.215 [info] ExtensionService#_doActivateExtension dendron.dendron, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.215 [info] ExtensionService#_doActivateExtension dendron.dendron-markdown-shortcuts, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.215 [info] ExtensionService#_doActivateExtension dendron.dendron-snippet-maker, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.215 [info] ExtensionService#_doActivateExtension dlasagno.wal-theme, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.215 [info] ExtensionService#_doActivateExtension iocave.monkey-patch, startup: true, activationEvent: '*', root cause: iocave.customize-ui
+2022-12-17 18:50:05.216 [info] ExtensionService#_doActivateExtension Janne252.fontawesome-autocomplete, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.216 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.216 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.216 [info] ExtensionService#_doActivateExtension psudo-dev.nebula-oni-theme, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.917 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.917 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.917 [info] ExtensionService#_doActivateExtension iocave.customize-ui, startup: true, activationEvent: '*'
+2022-12-17 18:50:05.961 [info] Eager extensions activated
+2022-12-17 18:50:05.973 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:50:05.973 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:50:05.973 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:50:05.973 [info] ExtensionService#_doActivateExtension activecove.marquee, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:50:05.973 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:50:05.973 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:50:05.973 [info] ExtensionService#_doActivateExtension kuba-p.theme-pink-candy, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:50:05.973 [info] ExtensionService#_doActivateExtension MatthewNespor.vscode-color-identifiers-mode, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:50:05.973 [info] ExtensionService#_doActivateExtension Sudhan.neondark-theme, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:50:05.973 [info] ExtensionService#_doActivateExtension virgilsisoe.hammerspoon, startup: false, activationEvent: 'onStartupFinished'
+2022-12-17 18:50:06.047 [error] Activating extension virgilsisoe.hammerspoon failed due to an error:
+2022-12-17 18:50:06.047 [error] Error: ENOENT: no such file or directory, open '/Applications/Hammerspoon.app/Contents/Resources/docs.json'
+	at Object.openSync (node:fs:585:3)
+	at Object.func [as openSync] (node:electron/js2c/asar_bundle:5:1812)
+	at readFileSync (node:fs:453:35)
+	at e.readFileSync (node:electron/js2c/asar_bundle:5:9160)
+	at Object.<anonymous> (/home/nik/.vscode-oss/extensions/virgilsisoe.hammerspoon-0.4.0-universal/out/generate_hs_docs.js:7:48)
+	at u._compile (/usr/lib/code/out/vs/loader.js:4:1313)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+	at Module.load (node:internal/modules/cjs/loader:988:32)
+	at Module._load (node:internal/modules/cjs/loader:829:12)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at r._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+	at w._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+	at v._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at p (/usr/lib/code/out/vs/loader.js:4:699)
+	at Object.<anonymous> (/home/nik/.vscode-oss/extensions/virgilsisoe.hammerspoon-0.4.0-universal/out/extension.js:13:28)
+	at u._compile (/usr/lib/code/out/vs/loader.js:4:1313)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+	at Module.load (node:internal/modules/cjs/loader:988:32)
+	at Module._load (node:internal/modules/cjs/loader:829:12)
+	at c._load (node:electron/js2c/asar_bundle:5:13343)
+	at r._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:120:13379)
+	at w._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:61900)
+	at v._load (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:61293)
+	at Module.require (node:internal/modules/cjs/loader:1012:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.r [as __$__nodeRequire] (/usr/lib/code/out/vs/loader.js:5:101)
+	at d.pb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:63164)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Promise.all (index 0)

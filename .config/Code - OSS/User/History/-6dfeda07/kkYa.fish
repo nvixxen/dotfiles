@@ -1,0 +1,31 @@
+alias pacin='sudo pacman -S'
+alias yain='yay -S'
+alias pacup='sudo pacman -Syu'
+alias yaup='yay -Syu'
+alias dots='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias ..='cd ..'
+alias ls='ls -Al --color=always -X --group-directories-first'
+alias nv='nvim'
+alias snv='sudo nvim'
+alias conf='cd ~/.config'
+alias dls='cd ~/Downloads'
+alias etc='cd /etc'
+alias ushare='cd /usr/share'
+alias vlog='cd /var/log'
+alias screenshot='shutter -f -e -o '/home/nik/Pictures/Screenshots/%y%b%d-%H%M%S.jpg'
+alias vivaldi='vivaldi-stable &; disown'
+alias nvi3='nvim ~/.config/i3/config'
+alias vs13='code ~/.config/ie/config'
+alias nvaw='nvim ~/.config/awesome/rc.lua'
+alias vsaw='code ~/.config/awesome/rc.lua'
+alias ipup='ip link set wlp0s20f3 up'
+alias ipdn='ip link set wlp0s20f3 down'
+alias ?='locate'
+alias cps='sensors'
+alias ping='ping www.google.com -c 3"
+alias ft='fortune'
+
+
+alias dots="/usr/bin/git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME"
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles.git/ --work-tree=$HOME"
+alias dots='/usr/bin/git --git-dir=/home/nik/.dots/ --work-tree=/home/nik'

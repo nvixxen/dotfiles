@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/home/nik/.config/i3"
+		},
+		{
+			"path": "/home/nik/.config/i3blocks"
+		},
+		{
+			"path": "../../../rofi"
+		}
+	],
+	"settings": {}
+}

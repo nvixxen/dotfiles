@@ -1,0 +1,66 @@
+info: {"ctx":"Logger:configure","msg":"exit","logLevel":"info"}
+info: {"ctx":"_activate","stage":"prod","isDebug":false,"logLevel":"info","logPath":"/home/nik/.config/Code - OSS/logs/20221130T121624/window1/exthost/dendron.dendron","extensionPath":"/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal","extensionUri":"/home/nik/.vscode-oss/extensions/dendron.dendron-0.118.0-universal","workspaceFile":"/home/nik/.vscode-oss/workspaces/Awesome&Friends_DesktopConfigs.code-workspace","workspaceFolders":["/home/nik/.config/awesome"]}
+info: {"ctx":"DendronExtension","msg":"initialized"}
+info: {"ctx":"_activate","msg":"initializeWorkspace","wsType":"NATIVE","currentVersion":"0.118.0","previousGlobalVersion":"0.118.0","extensionInstallStatus":"NO_CHANGE"}
+info: {"ctx":"WorkspaceActivator.init:postSetupTraits","wsRoot":"/home/nik/.config/awesome/notes"}
+info: {"ctx":"runMigrationsIfNecessary","changes":[],"workspaceInstallStatus":"NO_CHANGE"}
+info: {"ctx":"WorkspaceActivator.init:postMigration","wsRoot":"/home/nik/.config/awesome/notes"}
+info: {"ctx":"WorkspaceActivator.init:postWsServiceInitialize","wsRoot":"/home/nik/.config/awesome/notes"}
+info: {"ctx":"handleServerProcess","msg":"subprocess running","pid":13222}
+info: {"ctx":"startServerProcess","msg":"post-start-server","port":38233,"durationStartServer":606}
+info: {"ctx":"WorkspaceActivator.init:verifyOrStartServerProcess","port":38233}
+info: {"ctx":"WorkspaceActivator.init:exit"}
+info: {"msg":"Telemetry is disabled? false"}
+info: {"msg":"Segment Residual Cache Path is at /home/nik/.config/Code - OSS/User/globalStorage/dendron.dendron/segmentresidualcache.log"}
+info: {"ctx":"_activate:postSetupWorkspace","platform":"linux","extensions":[{"id":"dendron.dendron","version":"0.118.0","active":true},{"id":"dendron.dendron-paste-image","version":"1.1.0","active":false},{"id":"dendron.dendron-markdown-shortcuts","version":"0.12.1","active":true},{"id":"redhat.vscode-yaml","version":"1.10.1","active":false}],"vaults":[{"fsPath":".","selfContained":true,"name":"notes"}]}
+info: {"ctx":"dendron.reloadIndex:run","msg":"pre-execute"}
+info: {"ctx":"ReloadIndex.execute","msg":"enter"}
+info: Segment Residual Cache flush attempted. {"successCount":0,"nonRetryableErrorCount":0,"retryableErrorCount":0}
+info: {"ctx":"ReloadIndex.execute","durationEngineInit":90}
+info: {"ctx":"ReloadIndex.execute","msg":"exit"}
+info: {"ctx":"dendron.reloadIndex:run","msg":"post-execute"}
+info: {"ctx":"reloadWorkspace","msg":"post-ws.reloadWorkspace"}
+info: {"ctx":"reloadWorkspace","msg":"exit"}
+info: {"ctx":"postReloadWorkspace","msg":"same wsVersion"}
+info: {"ctx":"postReloadWorkspace","msg":"exit"}
+info: {"ctx":"setupViews","msg":"init:treeViewV2"}
+info: {"ctx":"setupBacklinkTreeView","msg":"init:backlinks"}
+info: {"ctx":"WorkspaceActivator:activate","msg":"fin startClient","durationReloadWorkspace":101}
+info: {"ctx":"activateWorkspace","stage":"prod","msg":"enter"}
+info: {"ctx":"togglePluginActiveContext","state":"togglePluginActiveContext: true"}
+info: {"ctx":"showWelcomeOrWhatsNew","version":"0.118.0","previousExtensionVersion":"0.0.0"}
+debug: {"msg":"Note opened","fname":"google-keep.qtws"}
+info: {"ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":["/usr/share/silos-apps/apps/google-keep.qtws"]}
+info: {"ctx":"refreshBacklinksChangeActiveTextEditor"}
+debug: {"msg":"Marking note as having opened for the first time this session","fname":"google-keep.qtws"}
+info: {"ctx":"WorkspaceWatcher:onFirstOpen","msg":"enter","fname":"google-keep.qtws"}
+info: sendSavedAnalytics
+info: {"ctx":"AnalyticsUtils.sendSavedAnalytics","message":"start"}
+info: {"ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":[]}
+info: {"ctx":"refreshBacklinksChangeActiveTextEditor"}
+info: {"ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":["/usr/share/silos-apps/apps/clickup.qtws"]}
+info: {"ctx":"refreshBacklinksChangeActiveTextEditor"}
+info: {"ctx":"WorkspaceWatcher:onWillSaveTextDocument","url":"/usr/share/silos-apps/apps/clickup.qtws","reason":"Manual","msg":"enter"}
+debug: {"ctx":"WorkspaceWatcher:onWillSaveTextDocument","uri":"/usr/share/silos-apps/apps/clickup.qtws","msg":"not in workspace, ignoring."}
+debug: {"ctx":"TextDocumentService:onDidSave","uri":"/usr/share/silos-apps/apps/clickup.qtws","msg":"not in workspace, ignoring"}
+info: {"ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":[]}
+info: {"ctx":"refreshBacklinksChangeActiveTextEditor"}
+info: {"ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":["/home/nik/.config/awesome/rc.lua"]}
+info: {"ctx":"refreshBacklinksChangeActiveTextEditor"}
+info: {"ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":[]}
+info: {"ctx":"refreshBacklinksChangeActiveTextEditor"}
+debug: {"msg":"Note opened","fname":"Awesome Installed Modules"}
+info: {"ctx":"WindowWatcher:onDidChangeVisibleTextEditors","editorPaths":["/home/nik/.config/awesome/notes/notes/Awesome Installed Modules.md"]}
+info: {"ctx":"refreshBacklinksChangeActiveTextEditor"}
+debug: {"msg":"Marking note as having opened for the first time this session","fname":"Awesome Installed Modules"}
+info: {"ctx":"WorkspaceWatcher:onFirstOpen","msg":"enter","fname":"Awesome Installed Modules"}
+debug: {"ctx":"moveCursorPastFrontmatter","msg":"not moving cursor because the cursor was moved before we could get to it"}
+info: {"ctx":"WindowWatcher:onDidChangeActiveTextEditor","editor":"/home/nik/.config/awesome/notes/notes/Awesome Installed Modules.md"}
+debug: {"ctx":"updateDecorations","msg":"enter"}
+info: {"ctx":"updateDecorations","msg":"decorating...","payload":{"decorationsLength":2,"diagnosticsLength":0}}
+info: {"ctx":"WorkspaceWatcher:onFirstOpen","msg":"exit","fname":"Awesome Installed Modules"}
+debug: {"ctx":"ShowPreview:onDidReceiveMessage","msgType":"init"}
+debug: {"ctx":"ShowPreview:onDidReceiveMessage","msgType":"messageDispatcherReady"}
+debug: {"ctx":"ShowPreview:onDidReceiveMessage","msg":"got active note","note":{"fname":"Awesome Installed Modules","id":"wvq41v75wwj7nbpx4b3bc0q","children":[],"vault":{"fsPath":".","selfContained":true,"name":"notes"},"parent":"ljsdsmgpcuzjwcnnl1ksy8t"}}
+debug: {"ctx":"TextDocumentService:applyTextDocument","uri":"/home/nik/.config/awesome/notes/notes/Awesome Installed Modules.md"}
+debug: {"ctx":"TextDocumentService:applyTextDocument","uri":"/home/nik/.config/awesome/notes/notes/Awesome Installed Modules.md","msg":"note content unchanged, returning original note"}

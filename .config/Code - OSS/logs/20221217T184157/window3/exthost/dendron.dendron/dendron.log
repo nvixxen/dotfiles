@@ -1,0 +1,19 @@
+{"level":30,"time":1671331805733,"pid":68672,"hostname":"anarchy","name":"dendron","ctx":"Logger:configure","msg":"exit","logLevel":"info"}
+{"level":30,"time":1671331805790,"pid":68672,"hostname":"anarchy","name":"dendron","ctx":"_activate","stage":"prod","isDebug":false,"logLevel":"info","logPath":"/home/nik/.config/Code - OSS/logs/20221217T184157/window3/exthost/dendron.dendron","extensionPath":"/home/nik/.vscode-oss/extensions/dendron.dendron-0.119.0-universal","extensionUri":"/home/nik/.vscode-oss/extensions/dendron.dendron-0.119.0-universal"}
+{"level":30,"time":1671331805894,"pid":68672,"hostname":"anarchy","name":"SegmentClient","msg":"No cache path for Segment specified. Failed event uploads will not be retried."}
+{"level":30,"time":1671331805894,"pid":68672,"hostname":"anarchy","name":"SegmentClient","msg":"user telemetry setting: enabled by config"}
+{"level":30,"time":1671331805894,"pid":68672,"hostname":"anarchy","name":"SegmentClient","msg":"telemetry initializing"}
+{"level":30,"time":1671331805895,"pid":68672,"hostname":"anarchy","name":"SegmentClient","msg":"using existing id"}
+{"level":30,"time":1671331805895,"pid":68672,"hostname":"anarchy","name":"SegmentClient","msg":"anonymous id","anonymousId":"rv9s2sm4ogg1vbdowsi8oap"}
+{"level":30,"time":1671331805901,"pid":68672,"hostname":"anarchy","name":"dendron","ctx":"DendronExtension","msg":"initialized"}
+{"level":30,"time":1671331805966,"pid":68672,"hostname":"anarchy","name":"dendron","ctx":"_activate","msg":"initializeWorkspace","wsType":"NONE","currentVersion":"0.119.0","previousGlobalVersion":"0.119.0","extensionInstallStatus":"NO_CHANGE"}
+{"level":30,"time":1671331805967,"pid":68672,"hostname":"anarchy","name":"dendron","ctx":"_activate","msg":"dendron not active"}
+{"level":30,"time":1671331805968,"pid":68672,"hostname":"anarchy","name":"SegmentClient","msg":"user telemetry setting: enabled by config"}
+{"level":30,"time":1671331805968,"pid":68672,"hostname":"anarchy","name":"SegmentClient","msg":"telemetry initializing"}
+{"level":30,"time":1671331805968,"pid":68672,"hostname":"anarchy","name":"SegmentClient","msg":"using existing id"}
+{"level":30,"time":1671331805969,"pid":68672,"hostname":"anarchy","name":"SegmentClient","msg":"anonymous id","anonymousId":"rv9s2sm4ogg1vbdowsi8oap"}
+{"level":30,"time":1671331805969,"pid":68672,"hostname":"anarchy","name":"dendron","msg":"Telemetry is disabled? false"}
+{"level":30,"time":1671331805969,"pid":68672,"hostname":"anarchy","name":"dendron","msg":"Segment Residual Cache Path is at /home/nik/.config/Code - OSS/User/globalStorage/dendron.dendron/segmentresidualcache.log"}
+{"level":30,"time":1671331805969,"pid":68672,"hostname":"anarchy","name":"SegmentClient","msg":"Attempting to flush residual segment data from file."}
+{"level":30,"time":1671331805969,"pid":68672,"hostname":"anarchy","name":"dendron","ctx":"showWelcomeOrWhatsNew","version":"0.119.0","previousExtensionVersion":"0.0.0"}
+{"level":30,"time":1671331806049,"pid":68672,"hostname":"anarchy","name":"dendron","msg":"Segment Residual Cache flush attempted. {\"successCount\":0,\"nonRetryableErrorCount\":0,\"retryableErrorCount\":0}"}

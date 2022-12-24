@@ -1,0 +1,6 @@
+`{
+        "name": "ClickUp",
+        "home": "http://app/clickup.com",
+        "icon": "clickup.png",
+        "saveSession": false
+}
