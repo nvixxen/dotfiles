@@ -1,0 +1,14 @@
+{
+  "pinned": [
+    "notion-like-tables:nlt-add-table",
+    "obsidian-tasks-plugin:edit-task",
+    "obsidian-mind-map:app:markmap-preview",
+    "obsidian-full-calendar:full-calendar-new-event",
+    "obsidian-full-calendar:full-calendar-open",
+    "buttons:button-maker",
+    "buttons:inline-button",
+    "obsidian-dictionary-plugin:dictionary-open-view",
+    "obsidian-day-planner:app:add-day-planner-to-note",
+    "obsidian-day-planner:app:show-day-planner-today-note"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "calendarSources": [
+    {
+      "type": "caldav",
+      "color": "#B6469D",
+      "url": "https://nc.cloudx.live/remote.php/dav",
+      "username": "admin",
+      "password": "FainLOwifianyoNEloanba0930!",
+      "name": "https://calendar.google.com/calendar/ical/nikole%40stitchcraftpatternstudio.com/public/basic.ics",
+      "homeUrl": "https://nc.cloudx.live/remote.php/dav/calendars/admin/httpscalendargooglecomcalendaricalnikole40stitchcraftpatternstudiocompublicbasicics/"
+    },
+    {
+      "type": "caldav",
+      "color": "#D09E6D",
+      "url": "https://nc.cloudx.live/remote.php/dav",
+      "username": "admin",
+      "password": "FainLOwifianyoNEloanba0930!",
+      "name": "https://calendar.google.com/calendar/u/1?cid=bmlrb2xlQHN0aXRjaGNyYWZ0cGF0dGVybnN0dWRpby5jb20",
+      "homeUrl": "https://nc.cloudx.live/remote.php/dav/calendars/admin/httpscalendargooglecomcalendaru1cidbmlrb2xlqhn0axrjagnyywz0cgf0dgvybnn0dwrpby5jb20/"
+    }
+  ],
+  "defaultCalendar": 0,
+  "recursiveLocal": true,
+  "firstDay": 1,
+  "initialView": {
+    "desktop": "dayGridMonth",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": false
+}

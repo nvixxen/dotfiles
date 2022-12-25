@@ -1,0 +1,3 @@
+- [ ] [[How do you make fish shell aliases persistent?]]
+- [ ]  How do you change the top menu in the left sidebar to horizontal instead of vertical?
+- [ ] 

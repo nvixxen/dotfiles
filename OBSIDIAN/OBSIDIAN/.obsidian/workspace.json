@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "5913a531e85dafa1",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f6202306f373b63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd9107789d07e085",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Flash Rewards BBB Complaint Draft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "498767a7536d684d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TEMPLATES/S.M.A.R.T. Goals Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "043bb3e2d0abbd57",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6fa25dba8901df8",
+        "type": "tabs",
+        "dimension": 64.86972147349506,
+        "children": [
+          {
+            "id": "766f443f11eae238",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a150ed8fbad28a66",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#wisdom",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "effd29a8c494e2eb",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "0edd99e43a254d47",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "02f0e86f7a574bdb",
+        "type": "tabs",
+        "dimension": 35.130278526504945,
+        "children": [
+          {
+            "id": "5e35c4d8a802c1ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282.5110321044922
+  },
+  "right": {
+    "id": "ad8c0455e3d1296a",
+    "type": "split",
+    "children": [
+      {
+        "id": "badbb2e46ae5bd7b",
+        "type": "tabs",
+        "dimension": 42.345773038842346,
+        "children": [
+          {
+            "id": "ab67947eae0c85b4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TEMPLATES/S.M.A.R.T. Goals Template.md"
+              }
+            }
+          },
+          {
+            "id": "8764a5a39cf7f6df",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "0687e0cd88b974e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TEMPLATES/S.M.A.R.T. Goals Template.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2de5ed019d2e6cc3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TEMPLATES/S.M.A.R.T. Goals Template.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c9d413e9204846e4",
+        "type": "tabs",
+        "dimension": 25.285605483625282,
+        "children": [
+          {
+            "id": "1fc13dce231b5569",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "39ed8619faa58142",
+        "type": "tabs",
+        "dimension": 32.368621477532365,
+        "children": [
+          {
+            "id": "ef8049a72e94aaf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LIFE/Notebook/Q.O.T.D..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 216.5
+  },
+  "active": "498767a7536d684d",
+  "lastOpenFiles": [
+    "Untitled 4.md",
+    "TEMPLATES/S.M.A.R.T. Goals Template.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Flash Rewards BBB Complaint Draft.md",
+    "How do you make fish shell aliases persistent?.md",
+    "QUESTIONS....md",
+    "LIFE/Notebook/How To's/Technology/Linux/DOTFILE Management.md"
+  ]
+}
