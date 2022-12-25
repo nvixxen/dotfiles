@@ -1,0 +1,40 @@
+{
+	"name": "night-blossom",
+	"displayName": "night blossom",
+	"description": "Bring the brightness of spring to your editor!",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.68.0"
+	},
+	"author": "RustedTurnip",
+	"publisher": "RustedTurnip",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "night blossom",
+				"uiTheme": "vs-dark",
+				"path": "./themes/night-blossom-color-theme.json"
+			}
+		]
+	},
+	"license": "MIT",
+	"icon": "img/night-blossom-icon-128.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/RustedTurnip/night-blossom"
+	},
+	"__metadata": {
+		"id": "d287df92-b661-4ebe-af2a-98c286d373c1",
+		"publisherId": "0b21bd94-7730-4adb-a227-5189d7af8771",
+		"publisherDisplayName": "RustedTurnip",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1670644872386,
+		"preRelease": false
+	}
+}

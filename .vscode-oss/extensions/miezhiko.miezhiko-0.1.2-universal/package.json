@@ -1,0 +1,42 @@
+{
+	"name": "miezhiko",
+	"displayName": "Miezhiko Theme",
+	"description": "Miezhiko theme for VScode.",
+	"publisher": "Miezhiko",
+	"license": "GPLv3",
+	"version": "0.1.2",
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme"
+	],
+	"icon": "Miezhiko.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Miezhiko/Miezhiko-theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Miezhiko Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Miezhiko-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "91663ca7-6c19-4884-9bbb-dc6b7b1341cb",
+		"publisherId": "0701d5b9-fe44-48ad-80d0-270fa78fb3a6",
+		"publisherDisplayName": "Miezhiko",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1667553406687,
+		"preRelease": false
+	}
+}

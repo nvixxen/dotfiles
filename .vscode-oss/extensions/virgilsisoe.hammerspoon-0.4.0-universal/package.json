@@ -1,0 +1,147 @@
+{
+	"name": "hammerspoon",
+	"displayName": "Hammerspoon",
+	"publisher": "virgilsisoe",
+	"description": "Autocomplete, hover and function signature helper for the Hammerspoon framework.",
+	"version": "0.4.0",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"hammerspoon",
+		"lua"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sisoe24/hammerspoon-vscode"
+	},
+	"license": "MIT",
+	"icon": "images/hammerspoon_icon.png",
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "hammerspoon.connect",
+				"title": "Toggle server connection",
+				"category": "Hammerspoon"
+			},
+			{
+				"command": "hammerspoon.updateDatabase",
+				"title": "Update completion documentation.",
+				"shortTitle": "HS Update Docs",
+				"category": "Hammerspoon"
+			},
+			{
+				"command": "hammerspoon.createSpoon",
+				"title": "Create Spoon",
+				"category": "Hammerspoon"
+			},
+			{
+				"command": "hammerspoon.generateSpoonDoc",
+				"title": "Generate Spoon documentation",
+				"category": "Hammerspoon"
+			},
+			{
+				"command": "hammerspoon.showConsole",
+				"title": "Show Hammerspoon Console",
+				"category": "Hammerspoon"
+			},
+			{
+				"command": "hammerspoon.reloadConfiguration",
+				"title": "Reload Hammerspoon configuration.",
+				"category": "Hammerspoon",
+				"icon": {
+					"dark": "images/sync-light.svg",
+					"light": "images/sync-dark.svg"
+				}
+			}
+		],
+		"configuration": {
+			"title": "Hammerspoon",
+			"properties": {
+				"hammerspoon.console.focusOutputWindow": {
+					"type": "boolean",
+					"markdownDescription": "Focus on output window when reloading Hammerspoon from extension.",
+					"default": true
+				},
+				"hammerspoon.console.filterOutput": {
+					"type": "array",
+					"markdownDescription": "Filter output lines based on regex match"
+				},
+				"hammerspoon.spoons.path": {
+					"type": "string",
+					"markdownDescription": "Default path of the Spoons directory",
+					"default": "~/.hammerspoon/Spoons"
+				},
+				"hammerspoon.network.port": {
+					"type": "number",
+					"markdownDescription": "A TCP port where to listen to the incoming connection from Hammerspoon",
+					"default": 54321
+				},
+				"hammerspoon.spoons.extraDocumentation": {
+					"type": "object",
+					"markdownDescription": "Generate extra HTML/Markdown of the Spoon documentation.\n\nRequires path of the Hammerspoon source code directory and its python interpreter path. More info on the README.",
+					"default": {
+						"repository-path": "",
+						"interpreter-path": ""
+					}
+				}
+			}
+		},
+		"menus": {
+			"editor/title": [
+				{
+					"when": "resourceLangId == lua",
+					"command": "hammerspoon.reloadConfiguration",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@istanbuljs/nyc-config-typescript": "^1.0.2",
+		"@types/glob": "^7.1.4",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "14.x",
+		"@types/vscode": "^1.63.0",
+		"@typescript-eslint/eslint-plugin": "^5.1.0",
+		"@typescript-eslint/parser": "^5.1.0",
+		"@vscode/test-electron": "^1.6.2",
+		"eslint": "^8.1.0",
+		"glob": "^7.1.7",
+		"mocha": "^9.1.3",
+		"nyc": "^15.1.0",
+		"source-map-support": "^0.5.21",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.4.4"
+	},
+	"dependencies": {
+		"@types/luaparse": "^0.2.8",
+		"luaparse": "^0.3.1"
+	},
+	"__metadata": {
+		"id": "7ac4e349-6cb8-411a-9913-a2b7d6a59e07",
+		"publisherId": "f11a7448-c4a1-4e15-9fd0-63a0ef4a4b7f",
+		"publisherDisplayName": "virgilsisoe",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1667693215331,
+		"preRelease": false
+	}
+}

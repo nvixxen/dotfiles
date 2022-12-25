@@ -1,0 +1,58 @@
+{
+	"name": "infinity-dark-theme",
+	"displayName": "infinity dark theme",
+	"description": "vs code dark theme very good for your eyes ",
+	"version": "1.0.1",
+	"publisher": "nadim-vscode",
+	"author": {
+		"name": "Nadim Al Abdou",
+		"url": "https://nalabdou.com"
+	},
+	"icon": "infinity.png",
+	"homepage": "https://github.com/nalabdou/infinity-theme/blob/master/README.md",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nalabdou/infinity-theme"
+	},
+	"bugs": "https://github.com/nalabdou/infinity-theme/issues",
+	"galleryBanner": {
+		"color": "#193549",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark theme",
+		"theme dark",
+		"dark",
+		"blue theme",
+		"theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Infinity Dark Theme Eye Friendly Colors",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Infinity-color-theme.json"
+			}
+		]
+	},
+	"dependencies": {},
+	"devDependencies": {},
+	"__metadata": {
+		"id": "b84d3bf9-94a8-43ca-939c-496e7e287ea0",
+		"publisherId": "23c27a52-6613-4bda-8b0d-d09fa109d4ed",
+		"publisherDisplayName": "nadim-vscode",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1667553401354,
+		"preRelease": false
+	}
+}

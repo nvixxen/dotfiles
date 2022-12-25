@@ -1,0 +1,750 @@
+[06:44:50.819][info] [#0:/home/nik/.vscode-oss/extensions/nightrains.robloxlsp-1.6.6-universal/server/main.lua:54]: Lua Lsp startup, root: 	/home/nik/.vscode-oss/extensions/nightrains.robloxlsp-1.6.6-universal/server
+[06:44:50.819][debug][#0:/home/nik/.vscode-oss/extensions/nightrains.robloxlsp-1.6.6-universal/server/main.lua:55]: ROOT:	/home/nik/.vscode-oss/extensions/nightrains.robloxlsp-1.6.6-universal/server
+[06:44:50.819][debug][#0:/home/nik/.vscode-oss/extensions/nightrains.robloxlsp-1.6.6-universal/server/main.lua:56]: LOGPATH:	/home/nik/.vscode-oss/extensions/nightrains.robloxlsp-1.6.6-universal/server/log
+[06:44:50.819][debug][#0:/home/nik/.vscode-oss/extensions/nightrains.robloxlsp-1.6.6-universal/server/main.lua:57]: METAPATH:	/home/nik/.vscode-oss/extensions/nightrains.robloxlsp-1.6.6-universal/server/meta
+[06:44:50.858][info] [#0:script/pub/pub.lua:48]: Create brave:	1
+[06:44:50.858][info] [#0:script/pub/pub.lua:48]: Create brave:	2
+[06:44:50.858][info] [#0:script/pub/pub.lua:48]: Create brave:	3
+[06:44:50.858][info] [#0:script/pub/pub.lua:48]: Create brave:	4
+[06:44:50.858][debug][#0:script/service/service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.528 MB
+        # 00 : 1.528 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[06:44:50.884][debug][#0:script/provider/client.lua:73]: Client init	{
+    capabilities = {
+        general = {
+            markdown = {
+                parser = "marked",
+                version = "1.1.0",
+            },
+            regularExpressions = {
+                engine = "ECMAScript",
+                version = "ES2020",
+            },
+            staleRequestSupport = {
+                cancel = true,
+                retryOnContentModified = {
+                    [1] = "textDocument/semanticTokens/full",
+                    [2] = "textDocument/semanticTokens/range",
+                    [3] = "textDocument/semanticTokens/full/delta",
+                },
+            },
+        },
+        textDocument = {
+            callHierarchy = {
+                dynamicRegistration = true,
+            },
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [1] = "",
+                            [2] = "quickfix",
+                            [3] = "refactor",
+                            [4] = "refactor.extract",
+                            [5] = "refactor.inline",
+                            [6] = "refactor.rewrite",
+                            [7] = "source",
+                            [8] = "source.organizeImports",
+                        },
+                    },
+                },
+                dataSupport = true,
+                disabledSupport = true,
+                dynamicRegistration = true,
+                honorsChangeAnnotations = false,
+                isPreferredSupport = true,
+                resolveSupport = {
+                    properties = {
+                        [1] = "edit",
+                    },
+                },
+            },
+            codeLens = {
+                dynamicRegistration = true,
+            },
+            colorProvider = {
+                dynamicRegistration = true,
+            },
+            completion = {
+                completionItem = {
+                    commitCharactersSupport = true,
+                    deprecatedSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    insertReplaceSupport = true,
+                    insertTextModeSupport = {
+                        valueSet = {
+                            [1] = 1,
+                            [2] = 2,
+                        },
+                    },
+                    labelDetailsSupport = true,
+                    preselectSupport = true,
+                    resolveSupport = {
+                        properties = {
+                            [1] = "documentation",
+                            [2] = "detail",
+                            [3] = "additionalTextEdits",
+                        },
+                    },
+                    snippetSupport = true,
+                    tagSupport = {
+                        valueSet = {
+                            [1] = 1,
+                        },
+                    },
+                },
+                completionItemKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                    },
+                },
+                contextSupport = true,
+                dynamicRegistration = true,
+                insertTextMode = 2,
+            },
+            declaration = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+            definition = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+            documentHighlight = {
+                dynamicRegistration = true,
+            },
+            documentLink = {
+                dynamicRegistration = true,
+                tooltipSupport = true,
+            },
+            documentSymbol = {
+                dynamicRegistration = true,
+                hierarchicalDocumentSymbolSupport = true,
+                labelSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                    },
+                },
+            },
+            foldingRange = {
+                dynamicRegistration = true,
+                lineFoldingOnly = true,
+                rangeLimit = 5000,
+            },
+            formatting = {
+                dynamicRegistration = true,
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+                dynamicRegistration = true,
+            },
+            implementation = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+            linkedEditingRange = {
+                dynamicRegistration = true,
+            },
+            onTypeFormatting = {
+                dynamicRegistration = true,
+            },
+            publishDiagnostics = {
+                codeDescriptionSupport = true,
+                dataSupport = true,
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+                versionSupport = false,
+            },
+            rangeFormatting = {
+                dynamicRegistration = true,
+            },
+            references = {
+                dynamicRegistration = true,
+            },
+            rename = {
+                dynamicRegistration = true,
+                honorsChangeAnnotations = true,
+                prepareSupport = true,
+                prepareSupportDefaultBehavior = 1,
+            },
+            selectionRange = {
+                dynamicRegistration = true,
+            },
+            semanticTokens = {
+                dynamicRegistration = true,
+                formats = {
+                    [1] = "relative",
+                },
+                multilineTokenSupport = false,
+                overlappingTokenSupport = false,
+                requests = {
+                    full = {
+                        delta = true,
+                    },
+                    range = true,
+                },
+                tokenModifiers = {
+                    [01] = "declaration",
+                    [02] = "definition",
+                    [03] = "readonly",
+                    [04] = "static",
+                    [05] = "deprecated",
+                    [06] = "abstract",
+                    [07] = "async",
+                    [08] = "modification",
+                    [09] = "documentation",
+                    [10] = "defaultLibrary",
+                },
+                tokenTypes = {
+                    [01] = "namespace",
+                    [02] = "type",
+                    [03] = "class",
+                    [04] = "enum",
+                    [05] = "interface",
+                    [06] = "struct",
+                    [07] = "typeParameter",
+                    [08] = "parameter",
+                    [09] = "variable",
+                    [10] = "property",
+                    [11] = "enumMember",
+                    [12] = "event",
+                    [13] = "function",
+                    [14] = "method",
+                    [15] = "macro",
+                    [16] = "keyword",
+                    [17] = "modifier",
+                    [18] = "comment",
+                    [19] = "string",
+                    [20] = "number",
+                    [21] = "regexp",
+                    [22] = "operator",
+                },
+            },
+            signatureHelp = {
+                contextSupport = true,
+                dynamicRegistration = true,
+                signatureInformation = {
+                    activeParameterSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    parameterInformation = {
+                        labelOffsetSupport = true,
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                dynamicRegistration = true,
+                willSave = true,
+                willSaveWaitUntil = true,
+            },
+            typeDefinition = {
+                dynamicRegistration = true,
+                linkSupport = true,
+            },
+        },
+        window = {
+            showDocument = {
+                support = true,
+            },
+            showMessage = {
+                messageActionItem = {
+                    additionalPropertiesSupport = true,
+                },
+            },
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            codeLens = {
+                refreshSupport = true,
+            },
+            configuration = true,
+            didChangeConfiguration = {
+                dynamicRegistration = true,
+            },
+            didChangeWatchedFiles = {
+                dynamicRegistration = true,
+            },
+            executeCommand = {
+                dynamicRegistration = true,
+            },
+            fileOperations = {
+                didCreate = true,
+                didDelete = true,
+                didRename = true,
+                dynamicRegistration = true,
+                willCreate = true,
+                willDelete = true,
+                willRename = true,
+            },
+            semanticTokens = {
+                refreshSupport = true,
+            },
+            symbol = {
+                dynamicRegistration = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                    },
+                },
+            },
+            workspaceEdit = {
+                changeAnnotationSupport = {
+                    groupsOnLabel = true,
+                },
+                documentChanges = true,
+                failureHandling = "textOnlyTransactional",
+                normalizesLineEndings = true,
+                resourceOperations = {
+                    [1] = "create",
+                    [2] = "rename",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "Code - OSS",
+        version = "1.73.1",
+    },
+    locale = "en-us",
+    processId = 196032,
+    rootPath = "/home/nik/.config/awesome",
+    rootUri = "file:///home/nik/.config/awesome",
+    trace = "off",
+    workDoneToken = "669967f5-5ffc-4b8b-8469-525a2c4486fd",
+    workspaceFolders = {
+        [1] = {
+            name = "awesome",
+            uri = "file:///home/nik/.config/awesome",
+        },
+    },
+}
+[06:44:50.884][info] [#0:script/language.lua:135]: VSC language: en-us
+[06:44:50.884][info] [#0:script/language.lua:136]: LS  language: en-us
+[06:44:50.884][info] [#0:script/workspace/workspace.lua:32]: Workspace inited: 	file:///home/nik/.config/awesome
+[06:44:50.884][info] [#0:script/workspace/workspace.lua:39]: Log path: 	/home/nik/.vscode-oss/extensions/nightrains.robloxlsp-1.6.6-universal/server/log/file_home_nik_.config_awesome.log
+[06:44:50.950][debug][#0:script/provider/provider.lua:270]: didOpen	file:///home/nik/.config/awesome/rc.lua
+[06:44:50.968][debug][#0:script/config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = true,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = false,
+        paramType = true,
+        returnType = false,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27843,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+            [1] = "**/_Index/**",
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            ["**/_Index/**"] = true,
+            [".vscode"] = true,
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 1000,
+        preloadFileSize = 100,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+    },
+    exclude = {
+        ["**/.DS_Store"] = true,
+        ["**/.git"] = true,
+        ["**/.hg"] = true,
+        ["**/.svn"] = true,
+        ["**/CVS"] = true,
+        ["**/Thumbs.db"] = true,
+    },
+    semantic = "configuredByTheme",
+}
+[06:44:50.968][debug][#0:script/provider/completion.lua:26]: Enable completion.
+[06:44:50.977][debug][#0:script/provider/semantic-tokens.lua:32]: Enable semantic tokens.
+[06:44:51.534][debug][#0:script/provider/semantic-tokens.lua:111]: Refresh semantic tokens.
+[06:44:51.535][debug][#0:script/proto/proto.lua:131]: Method [initialized] takes [0.513]sec.
+[06:44:51.535][debug][#0:script/proto/proto.lua:131]: Method [textDocument/didOpen] takes [0.511]sec.
+[06:44:51.535][info] [#0:script/workspace/workspace.lua:302]: Preload start.
+[06:44:51.535][info] [#0:script/workspace/workspace.lua:82]: Ignore directory:	.vscode
+[06:44:51.535][info] [#0:script/workspace/workspace.lua:82]: Ignore directory:	**/_Index/**
+[06:44:51.535][info] [#0:script/workspace/workspace.lua:89]: Ignore by exclude:	**/CVS
+[06:44:51.535][info] [#0:script/workspace/workspace.lua:89]: Ignore by exclude:	**/Thumbs.db
+[06:44:51.535][info] [#0:script/workspace/workspace.lua:89]: Ignore by exclude:	**/.git
+[06:44:51.535][info] [#0:script/workspace/workspace.lua:89]: Ignore by exclude:	**/.svn
+[06:44:51.535][info] [#0:script/workspace/workspace.lua:89]: Ignore by exclude:	**/.DS_Store
+[06:44:51.535][info] [#0:script/workspace/workspace.lua:89]: Ignore by exclude:	**/.hg
+[06:44:51.535][info] [#0:script/workspace/workspace.lua:312]: Scan files at:	/home/nik/.config/awesome
+[06:44:51.536][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/rc.lua , size = 31.551 KB
+[06:44:51.537][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/holo/theme.lua , size = 17.824 KB
+[06:44:51.538][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/vertex/theme.lua , size = 20.566 KB
+[06:44:51.539][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/multicolor/theme.lua , size = 15.230 KB
+[06:44:51.541][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/powerarrow-dark/theme.lua , size = 15.699 KB
+[06:44:51.542][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/powerarrow/binclock.lua , size = 3.051 KB
+[06:44:51.542][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/powerarrow/theme.lua , size = 19.480 KB
+[06:44:51.544][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/blackburn/theme.lua , size = 11.225 KB
+[06:44:51.544][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/steamburn/theme.lua , size = 10.802 KB
+[06:44:51.545][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/dremora/theme.lua , size = 10.652 KB
+[06:44:51.546][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/copland/theme.lua , size = 15.995 KB
+[06:44:51.547][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/themes/rainbow/theme.lua , size = 11.917 KB
+[06:44:51.547][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/freedesktop/init.lua , size = 0.321 KB
+[06:44:51.547][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/freedesktop/menu.lua , size = 3.501 KB
+[06:44:51.547][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/freedesktop/desktop.lua , size = 7.968 KB
+[06:44:51.550][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/init.lua , size = 0.271 KB
+[06:44:51.550][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/helpers.lua , size = 4.619 KB
+[06:44:51.550][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/util/quake.lua , size = 6.043 KB
+[06:44:51.550][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/util/markup.lua , size = 2.240 KB
+[06:44:51.550][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/util/menu_iterator.lua , size = 4.997 KB
+[06:44:51.550][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/util/separators.lua , size = 2.958 KB
+[06:44:51.550][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/util/init.lua , size = 5.197 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/layout/centerwork.lua , size = 7.899 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/layout/termfair.lua , size = 10.104 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/util/dkjson.lua , size = 23.478 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/layout/init.lua , size = 0.405 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/layout/cascade.lua , size = 5.411 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/alsa.lua , size = 1.524 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/alsabar.lua , size = 5.559 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:315]: Found 48 files.
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:317]: Loaded 29/48 files
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/net.lua , size = 4.564 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/mpd.lua , size = 6.120 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/contrib/moc.lua , size = 3.761 KB
+[06:44:51.551][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/mem.lua , size = 1.753 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/contrib/task.lua , size = 2.718 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/contrib/init.lua , size = 0.383 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/contrib/tp_smapi.lua , size = 4.842 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/init.lua , size = 0.399 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/sysload.lua , size = 0.879 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/pulsebar.lua , size = 6.158 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/contrib/redshift.lua , size = 1.731 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/temp.lua , size = 1.427 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/pulse.lua , size = 1.712 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/fs.lua , size = 5.188 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/cpu.lua , size = 2.258 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/imap.lua , size = 3.147 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/weather.lua , size = 5.793 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/bat.lua , size = 9.172 KB
+[06:44:51.552][info] [#0:script/workspace/workspace.lua:233]: Preload file at: file:///home/nik/.config/awesome/lain/widget/cal.lua , size = 7.582 KB
+[06:44:51.883][info] [#0:script/workspace/workspace.lua:317]: Loaded 48/48 files
+[06:44:51.883][info] [#0:script/workspace/workspace.lua:326]: Preload finish.
+[06:44:52.079][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/themes/powerarrow/theme.lua	32
+[06:44:52.097][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/net.lua	2
+[06:44:52.107][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/contrib/tp_smapi.lua	3
+[06:44:52.434][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/rc.lua	42
+[06:44:52.442][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/themes/dremora/theme.lua	14
+[06:44:52.445][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/layout/cascade.lua	1
+[06:44:52.450][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/layout/centerwork.lua	4
+[06:44:52.453][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/util/menu_iterator.lua	2
+[06:44:52.485][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/util/dkjson.lua	1
+[06:44:52.506][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/themes/holo/theme.lua	21
+[06:44:52.519][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/themes/rainbow/theme.lua	7
+[06:44:52.534][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/bat.lua	6
+[06:44:52.545][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/pulsebar.lua	1
+[06:44:52.550][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/util/init.lua	1
+[06:44:52.568][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/themes/powerarrow-dark/theme.lua	29
+[06:44:52.572][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/imap.lua	4
+[06:44:52.616][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/fs.lua	2
+[06:44:52.622][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/layout/termfair.lua	1
+[06:44:52.628][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/alsabar.lua	1
+[06:44:52.642][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/themes/copland/theme.lua	21
+[06:44:52.645][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/freedesktop/menu.lua	1
+[06:44:52.651][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/temp.lua	2
+[06:44:52.670][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/themes/vertex/theme.lua	16
+[06:44:52.681][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/themes/steamburn/theme.lua	18
+[06:44:52.689][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/freedesktop/desktop.lua	6
+[06:44:52.697][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/contrib/task.lua	1
+[06:44:52.698][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/sysload.lua	5
+[06:44:52.703][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/helpers.lua	2
+[06:44:52.715][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/themes/multicolor/theme.lua	29
+[06:44:52.723][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/themes/blackburn/theme.lua	15
+[06:44:52.725][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/alsa.lua	2
+[06:44:52.728][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/mem.lua	3
+[06:44:52.730][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/pulse.lua	2
+[06:44:52.739][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/mpd.lua	3
+[06:44:52.745][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/contrib/moc.lua	3
+[06:44:52.747][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/cpu.lua	2
+[06:44:52.752][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/widget/weather.lua	4
+[06:44:52.756][debug][#0:script/provider/diagnostic.lua:228]: publishDiagnostics	file:///home/nik/.config/awesome/lain/util/quake.lua	2
+[06:44:52.756][debug][#0:script/provider/diagnostic.lua:386]: 全文诊断耗时：	0.693758
+[06:45:11.229][warn] [#0:script/pub/report.lua:24]: Load proto error:	Disconnected!

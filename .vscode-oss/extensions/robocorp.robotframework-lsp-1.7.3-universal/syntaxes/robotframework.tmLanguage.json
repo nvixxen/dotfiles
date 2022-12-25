@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Robot Framework",
+  "patterns": [
+    {
+      "match": "(^\\*\\*\\*.*?\\*\\*\\*)|((?<=^\\|)\\s+\\*\\*\\*.*?\\*\\*\\*)",
+      "name": "entity.name.type.class.robot"
+    },
+    {
+      "match": "\\[.*?\\]",
+      "name": "storage.type.setting.robot"
+    },
+    {
+      "match": "(\\$\\{.*?\\})|(@\\{.*?\\})|(%\\{.*?\\})|(&\\{.*?\\})",
+      "name": "variable.parameter.robot"
+    },
+    {
+      "begin": "((^\\s*)|(\\s\\s)|\\t)(?<!\\\\)#",
+      "end": "$",
+      "name": "comment.line.robot"
+    },
+    {
+      "begin": "(^[^ \\t\\*\\n\\|]+)|((?<=^\\|)\\s+[^ \\t\\*\\n\\|]+)",
+      "end": "\\s{2}|\\t|$|\\s+(?=\\|)",
+      "name": "entity.name.function.robot"
+    }
+
+
+  ],
+  "scopeName": "source.robot"
+}

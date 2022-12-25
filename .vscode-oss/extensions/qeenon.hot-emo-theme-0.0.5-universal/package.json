@@ -1,0 +1,42 @@
+{
+	"name": "hot-emo-theme",
+	"displayName": "Hot Emo Theme",
+	"description": "Hot Emo theme for VScode.",
+	"publisher": "Qeenon",
+	"license": "ISC",
+	"version": "0.0.5",
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme"
+	],
+	"icon": "1337.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Qeenon/hot-emo-theme"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Hot Emo Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/hot-emo-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "1e567d70-34dd-445b-b1cd-51cfa109d5d0",
+		"publisherId": "5cfbad5b-8bab-43c0-a7f4-eab03f817623",
+		"publisherDisplayName": "Qeenon",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1670617315549,
+		"preRelease": false
+	}
+}

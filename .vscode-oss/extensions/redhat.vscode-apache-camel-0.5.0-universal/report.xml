@@ -1,0 +1,44 @@
+<testsuites name="Mocha Tests">
+  <testsuite name="Should do completion in Camel URI using the additional component specified in preference" tests="1" errors="0" failures="0" skipped="0" timestamp="2022-10-03T14:43:43" time="2.913">
+    <testcase classname="Should do completion in Camel URI using the additional component specified in preference" name="Updated additional component is reflected in completion" time="2.91">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should do completion in Camel URI using the Camel Catalog version specified in preference" tests="1" errors="0" failures="0" skipped="0" timestamp="2022-10-03T14:43:46" time="3.84">
+    <testcase classname="Should do completion in Camel URI using the Camel Catalog version specified in preference" name="Updated Catalog runtime provider is reflected in completion" time="3.839">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should do completion in Camel URI using the Camel Catalog version specified in preference" tests="1" errors="0" failures="0" skipped="0" timestamp="2022-10-03T14:43:50" time="5.226">
+    <testcase classname="Should do completion in Camel URI using the Camel Catalog version specified in preference" name="Updated Catalog version is reflected in completion" time="5.224">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should do completion in modeline" tests="1" errors="0" failures="0" skipped="0" timestamp="2022-10-03T14:43:55" time="2.524">
+    <testcase classname="Should do completion in modeline" name="Completes modeline options" time="2.522">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should do completion in Camel component after &quot;ti&quot;" tests="1" errors="0" failures="0" skipped="0" timestamp="2022-10-03T14:43:58" time="2.488">
+    <testcase classname="Should do completion in Camel component after &quot;ti&quot;" name="Completes components for application.properties" time="2.488">
+    </testcase>
+  </testsuite>
+  <testsuite name="Should do completion in Camel URi after &quot;ti&quot;" tests="8" errors="0" failures="0" skipped="0" timestamp="2022-10-03T14:44:00" time="20.438">
+    <testcase classname="Should do completion in Camel URi after &quot;ti&quot;" name="Completes components for XML" time="2.51">
+    </testcase>
+    <testcase classname="Should do completion in Camel URi after &quot;ti&quot;" name="Completes components for Java" time="2.85">
+    </testcase>
+    <testcase classname="Should do completion in Camel URi after &quot;ti&quot;" name="Completes components for Groovy" time="3.096">
+    </testcase>
+    <testcase classname="Should do completion in Camel URi after &quot;ti&quot;" name="Completes components for Camel Kafka Connect properties" time="2.43">
+    </testcase>
+    <testcase classname="Should do completion in Camel URi after &quot;ti&quot;" name="Completes components for Kotlin" time="2.346">
+    </testcase>
+    <testcase classname="Should do completion in Camel URi after &quot;ti&quot;" name="Completes components for JS" time="2.567">
+    </testcase>
+    <testcase classname="Should do completion in Camel URi after &quot;ti&quot;" name="Completes components for Yaml" time="2.418">
+    </testcase>
+    <testcase classname="Should do completion in Camel URi after &quot;ti&quot;" name="Completes components for Yaml using shortcut" time="2.22">
+    </testcase>
+  </testsuite>
+  <testsuite name="Check Telemetry" tests="1" errors="0" failures="0" skipped="0" timestamp="2022-10-03T14:44:21" time="0.063">
+    <testcase classname="Check Telemetry" name="Check Telemetry event when opened document sent with language xml" time="0.061">
+    </testcase>
+  </testsuite>
+</testsuites>

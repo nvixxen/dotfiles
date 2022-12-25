@@ -1,0 +1,49 @@
+{
+	"name": "neofloss",
+	"displayName": "Neofloss",
+	"description": "Dark theme with a sweet tooth",
+	"version": "1.1.6",
+	"publisher": "radiolevity",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/radiolevity/neofloss"
+	},
+	"galleryBanner": {
+		"color": "#1C1B1D",
+		"theme": "dark"
+	},
+	"icon": "images/kana-logo.png",
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Neofloss",
+				"uiTheme": "vs-dark",
+				"path": "./neofloss-color-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "neofloss-icons",
+				"label": "Neofloss Icons",
+				"path": "./neofloss-icon-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "9dc3825e-b458-4e16-ba42-aca2867c1bb3",
+		"publisherId": "95b9cf4d-e7ad-464f-9529-6d5ea11344c2",
+		"publisherDisplayName": "radiolevity",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1670617368006,
+		"preRelease": false
+	}
+}

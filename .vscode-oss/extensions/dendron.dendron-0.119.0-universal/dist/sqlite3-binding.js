@@ -1,0 +1,1 @@
+const path=require("path"),bindingPath=path.resolve(path.join(__dirname,"node_sqlite3.node")),binding=require(bindingPath);module.exports=exports=binding;

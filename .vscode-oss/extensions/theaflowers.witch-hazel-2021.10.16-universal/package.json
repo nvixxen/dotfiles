@@ -1,0 +1,56 @@
+{
+	"name": "witch-hazel",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/theacodes/witchhazel"
+	},
+	"displayName": "Witch Hazel",
+	"description": "A dark and feminine color scheme",
+	"version": "2021.10.16",
+	"publisher": "TheaFlowers",
+	"icon": "images/witch-hazel-circle-icon.png",
+	"license": "SEE LICENSE IN LICENSE",
+	"homepage": "https://github.com/theacodes/witchhazel/blob/main/README.md",
+	"bugs": {
+		"url": "https://github.com/theacodes/witchhazel/issues"
+	},
+	"badges": [
+		{
+			"url": "https://flat.badgen.net/badge/sponsor/%E2%9D%A4/purple?icon=github",
+			"href": "https://github.com/sponsors/theacodes",
+			"description": "Sponsor me on GitHub!"
+		}
+	],
+	"qna": false,
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Witch Hazel",
+				"uiTheme": "vs-dark",
+				"path": "./Witch Hazel-color-theme.json"
+			},
+			{
+				"label": "Witch Hazel Hypercolor",
+				"uiTheme": "vs-dark",
+				"path": "./Witch Hazel-hypercolor-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "bda3efc0-1c97-4aef-8269-a299b9a1c0e7",
+		"publisherId": "9eaed3c0-10a2-4cf8-9c90-350a73bd79ec",
+		"publisherDisplayName": "TheaFlowers",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1670644904888,
+		"preRelease": false
+	}
+}

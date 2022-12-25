@@ -1,0 +1,3 @@
+[DEBUG]   -*- Init HelpProvider -*-
+[DEBUG]   linePrefix: ["  socket:send('workbench.action.tasks.runTask {My Task, "]
+[DEBUG]   Extract Method Expression: ["socket","send"]

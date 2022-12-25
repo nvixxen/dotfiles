@@ -1,0 +1,45 @@
+{
+	"name": "fluorescence",
+	"displayName": "Fluorescence",
+	"description": "Fluorescence inspired theme for Visual Studio Code",
+	"version": "1.0.3",
+	"publisher": "bodak",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"author": {
+		"name": "Kristian Boda",
+		"url": "https://bodak.github.io"
+	},
+	"repository": {
+		"url": "https://github.com/bodak/fluorescence-vscode",
+		"type": "git"
+	},
+	"bugs": {
+		"url": "https://github.com/bodak/fluorescence-vscode/issues"
+	},
+	"icon": "icon.png",
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Fluorescence",
+				"uiTheme": "vs-dark",
+				"path": "./themes/fluorescence.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "da25eea3-e168-428e-a037-776bc0a16086",
+		"publisherId": "e40aded5-f728-4f72-b764-6771745a54ed",
+		"publisherDisplayName": "bodak",
+		"targetPlatform": "universal",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1670644882727,
+		"preRelease": false
+	}
+}
