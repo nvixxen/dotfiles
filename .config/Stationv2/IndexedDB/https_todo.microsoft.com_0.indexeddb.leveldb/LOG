@@ -1,0 +1,30 @@
+2022/11/11-17:56:09.435 2833f Reusing MANIFEST /home/nik/.config/Stationv2/IndexedDB/https_todo.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/11-17:56:09.438 28758 Level-0 table #5: started
+2022/11/11-17:56:09.439 28758 Level-0 table #5: 535 bytes OK
+2022/11/11-17:56:09.440 28758 Delete type=0 #3
+2022/11/11-17:56:09.440 28758 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/11-17:56:09.458 28758 Level-0 table #7: started
+2022/11/11-17:56:09.459 28758 Level-0 table #7: 516 bytes OK
+2022/11/11-17:56:09.460 28758 Delete type=0 #4
+2022/11/11-17:56:09.460 28758 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/11-17:56:09.464 28758 Level-0 table #9: started
+2022/11/11-17:56:09.465 28758 Level-0 table #9: 516 bytes OK
+2022/11/11-17:56:09.465 28758 Delete type=0 #6
+2022/11/11-17:56:09.466 28758 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 43 : 1
+2022/11/11-17:56:09.466 28758 Compacting 1@0 + 1@1 files
+2022/11/11-17:56:09.466 28758 Generated table #10@0: 13 keys, 486 bytes
+2022/11/11-17:56:09.466 28758 Compacted 1@0 + 1@1 files => 486 bytes
+2022/11/11-17:56:09.467 28758 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/11-17:56:09.467 28758 Delete type=2 #9
+2022/11/11-17:56:09.467 28758 Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 43 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/11-17:56:09.477 28758 Level-0 table #12: started
+2022/11/11-17:56:09.478 28758 Level-0 table #12: 5461 bytes OK
+2022/11/11-17:56:09.485 28758 Delete type=0 #8
+2022/11/11-17:56:09.485 28758 Delete type=2 #7
+2022/11/11-17:56:09.485 28758 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\xc8\x05\x00t\x00a\x00s\x00k\x00s' @ 94 : 1
+2022/11/11-17:56:09.485 28758 Compacting 1@0 + 1@1 files
+2022/11/11-17:56:09.487 28758 Generated table #13@0: 140 keys, 1576 bytes
+2022/11/11-17:56:09.487 28758 Compacted 1@0 + 1@1 files => 1576 bytes
+2022/11/11-17:56:09.488 28758 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/11-17:56:09.488 28758 Delete type=2 #12
+2022/11/11-17:56:09.488 28758 Manual compaction at level-0 from '\x00\x04\x00\x00\xc8\x05\x00t\x00a\x00s\x00k\x00s' @ 94 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)

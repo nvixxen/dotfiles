@@ -1,0 +1,5 @@
+2022/11/09-12:32:10.085 af489 Reusing MANIFEST /home/nik/.config/Stationv2/IndexedDB/https_miro.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/09-12:32:13.177 af57b Level-0 table #5: started
+2022/11/09-12:32:13.178 af57b Level-0 table #5: 562 bytes OK
+2022/11/09-12:32:13.179 af57b Delete type=0 #3
+2022/11/09-12:32:13.179 af57b Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

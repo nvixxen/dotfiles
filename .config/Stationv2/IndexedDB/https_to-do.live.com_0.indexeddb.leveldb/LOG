@@ -1,0 +1,59 @@
+2022/11/26-19:58:53.356 fb24 Reusing MANIFEST /home/nik/.config/Stationv2/IndexedDB/https_to-do.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/26-19:58:53.356 fb24 Recovering log #8
+2022/11/26-19:58:53.366 fb24 Reusing old log /home/nik/.config/Stationv2/IndexedDB/https_to-do.live.com_0.indexeddb.leveldb/000008.log 
+2022/11/26-19:58:53.370 fbed Level-0 table #14: started
+2022/11/26-19:58:53.376 fbed Level-0 table #14: 904211 bytes OK
+2022/11/26-19:58:53.377 fbed Delete type=0 #8
+2022/11/26-19:58:53.377 fbed Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/26-19:58:53.390 fbed Level-0 table #16: started
+2022/11/26-19:58:53.391 fbed Level-0 table #16: 503 bytes OK
+2022/11/26-19:58:53.391 fbed Delete type=0 #13
+2022/11/26-19:58:53.391 fbed Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 7231 : 1
+2022/11/26-19:58:53.391 fbed Compacting 1@0 + 1@1 files
+2022/11/26-19:58:53.395 fbed Generated table #17@0: 1136 keys, 137944 bytes
+2022/11/26-19:58:53.395 fbed Compacted 1@0 + 1@1 files => 137944 bytes
+2022/11/26-19:58:53.396 fbed compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/26-19:58:53.396 fbed Delete type=2 #16
+2022/11/26-19:58:53.396 fbed Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 7231 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/26-19:58:53.399 fbed Level-0 table #19: started
+2022/11/26-19:58:53.400 fbed Level-0 table #19: 502 bytes OK
+2022/11/26-19:58:53.400 fbed Delete type=0 #15
+2022/11/26-19:58:53.400 fbed Delete type=2 #14
+2022/11/26-19:58:53.401 fbed Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 7249 : 1
+2022/11/26-19:58:53.401 fbed Compacting 1@0 + 1@1 files
+2022/11/26-19:58:53.402 fbed Generated table #20@0: 1138 keys, 137981 bytes
+2022/11/26-19:58:53.402 fbed Compacted 1@0 + 1@1 files => 137981 bytes
+2022/11/26-19:58:53.403 fbed compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/26-19:58:53.403 fbed Delete type=2 #19
+2022/11/26-19:58:53.403 fbed Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 7249 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/26-21:06:05.991 fbed Level-0 table #22: started
+2022/11/26-21:06:06.002 fbed Level-0 table #22: 889094 bytes OK
+2022/11/26-21:06:06.005 fbed Delete type=2 #17
+2022/11/26-21:06:06.005 fbed Delete type=0 #18
+2022/11/26-21:14:14.959 fbed Compacting 1@0 + 1@1 files
+2022/11/26-21:14:14.963 fbed Generated table #23@0: 926 keys, 91408 bytes
+2022/11/26-21:14:14.963 fbed Compacted 1@0 + 1@1 files => 91408 bytes
+2022/11/26-21:14:14.964 fbed compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/26-21:14:14.964 fbed Delete type=2 #20
+2022/11/26-21:14:14.964 fbed Delete type=2 #22
+2022/11/26-22:21:22.913 fbed Level-0 table #25: started
+2022/11/26-22:21:22.919 fbed Level-0 table #25: 868883 bytes OK
+2022/11/26-22:21:22.920 fbed Delete type=0 #21
+2022/11/26-22:35:38.017 fbed Compacting 1@0 + 1@1 files
+2022/11/26-22:35:38.020 fbed Generated table #26@0: 1289 keys, 93924 bytes
+2022/11/26-22:35:38.020 fbed Compacted 1@0 + 1@1 files => 93924 bytes
+2022/11/26-22:35:38.021 fbed compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/26-22:35:38.021 fbed Delete type=2 #25
+2022/11/26-22:35:38.021 fbed Delete type=2 #23
+2022/11/26-23:36:39.534 fbed Level-0 table #28: started
+2022/11/26-23:36:39.542 fbed Level-0 table #28: 868677 bytes OK
+2022/11/26-23:36:39.543 fbed Delete type=0 #24
+2022/11/26-23:50:53.875 fbed Compacting 1@0 + 1@1 files
+2022/11/26-23:50:53.879 fbed Generated table #29@0: 1692 keys, 96414 bytes
+2022/11/26-23:50:53.879 fbed Compacted 1@0 + 1@1 files => 96414 bytes
+2022/11/26-23:50:53.879 fbed compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/26-23:50:53.879 fbed Delete type=2 #26
+2022/11/26-23:50:53.879 fbed Delete type=2 #28
+2022/11/27-06:30:36.788 fbed Level-0 table #31: started
+2022/11/27-06:30:36.793 fbed Level-0 table #31: 869146 bytes OK
+2022/11/27-06:30:36.795 fbed Delete type=0 #27

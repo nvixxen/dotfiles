@@ -1,0 +1,5 @@
+2022/12/07-05:15:37.328 8b40b Reusing MANIFEST /home/nik/.config/Stationv2/IndexedDB/https_mightytext.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/07-05:15:37.333 8b6fd Level-0 table #5: started
+2022/12/07-05:15:37.334 8b6fd Level-0 table #5: 1379 bytes OK
+2022/12/07-05:15:37.335 8b6fd Delete type=0 #3
+2022/12/07-05:15:37.335 8b6fd Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

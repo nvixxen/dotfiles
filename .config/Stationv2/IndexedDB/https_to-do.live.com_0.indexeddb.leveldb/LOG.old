@@ -1,0 +1,26 @@
+2022/11/11-17:56:23.343 2833f Reusing MANIFEST /home/nik/.config/Stationv2/IndexedDB/https_to-do.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/11-17:56:23.346 28758 Level-0 table #5: started
+2022/11/11-17:56:23.347 28758 Level-0 table #5: 529 bytes OK
+2022/11/11-17:56:23.348 28758 Delete type=0 #3
+2022/11/11-17:56:23.348 28758 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/11-17:56:23.364 28758 Level-0 table #7: started
+2022/11/11-17:56:23.364 28758 Level-0 table #7: 506 bytes OK
+2022/11/11-17:56:23.365 28758 Delete type=0 #4
+2022/11/11-17:56:23.365 28758 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/11-17:56:23.367 28758 Level-0 table #9: started
+2022/11/11-17:56:23.367 28758 Level-0 table #9: 506 bytes OK
+2022/11/11-17:56:23.368 28758 Delete type=0 #6
+2022/11/11-17:56:23.368 28758 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 43 : 1
+2022/11/11-17:56:23.368 28758 Compacting 1@0 + 1@1 files
+2022/11/11-17:56:23.369 28758 Generated table #10@0: 13 keys, 470 bytes
+2022/11/11-17:56:23.369 28758 Compacted 1@0 + 1@1 files => 470 bytes
+2022/11/11-17:56:23.370 28758 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/11/11-17:56:23.370 28758 Delete type=2 #9
+2022/11/11-17:56:23.370 28758 Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 43 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/11/11-18:39:08.374 28758 Compacting 1@1 + 1@2 files
+2022/11/11-18:39:08.374 28758 Generated table #11@1: 6 keys, 268 bytes
+2022/11/11-18:39:08.374 28758 Compacted 1@1 + 1@2 files => 268 bytes
+2022/11/11-18:39:08.375 28758 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/11/11-18:39:08.375 28758 Delete type=2 #10
+2022/11/11-18:39:08.375 28758 Delete type=2 #5
+2022/11/11-18:39:08.375 28758 Delete type=2 #7
